@@ -93,6 +93,8 @@ python3 scripts/extract-assets.py '/path/to/original-attachments'
 
 ## Asset / Retina 개선 기록
 
+공유 썸네일은 제공된 `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png`를 무손실로 최적화한 `assets/images/og-jikyuchan.png`입니다(1536×1024, 약1.67MiB). Open Graph와 X의 large image 카드에 같은 절대 HTTPS URL을 설정했습니다. 공개 배포 후 공유 서비스가 이미지를 읽을 수 있으며, 서비스에 따라 미리보기 비율·크롭과 캐시가 달라질 수 있습니다. 사이트 본문의 Hero와 캐릭터는 교체하지 않았습니다.
+
 전체 감사와 해상도 비교표, 필요한 정확한 원본 구도·표정, 최종 판정은 [docs/retina-quality-report.md](docs/retina-quality-report.md)에 기록했습니다. 승인된 그림을 그대로 유지하며 원본 보드 crop을 무손실 WebP로 재저장했습니다. 작은 responsive 후보 8개, 달·쇼핑백 SVG, Hero와 말풍선의 HTML 문구, preload/srcset/sizes, lazy loading과 명시적 dimensions를 적용했습니다. Apple touch icon의 기존 확대는 제거했습니다.
 
 인접 앱 저장소의 원본은 현재 Master와 얼굴·표정·소품·구도가 달라 교체하지 않았습니다. Hero 등 11개 자산은 동일한 고해상도 원본이 필요하며 전체 Retina 품질이 완료된 상태는 아닙니다. 물리적 Retina 캡처는 제공 도구의 DPR=1 제한 때문에 수행하지 못했고, 실제 1440px/390px 브라우저 화면과 해상도 계산을 함께 검증했습니다.

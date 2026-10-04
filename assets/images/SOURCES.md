@@ -1,5 +1,9 @@
 # Supplied artwork provenance
 
+## Social sharing image
+
+`og-jikyuchan.png`: user-supplied `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png` from `/Users/woosyume/Desktop/jikyuchan-images/`. Original1536×1024 composition and decoded pixels retained; PNG compressed losslessly without cropping, redrawing, or upscaling. Used only by Open Graph / X metadata, not as page artwork.
+
 All artwork is cropped from the user's approved attachments. No replacement artwork was generated. Original source boards are not bundled. Matching independent high-resolution/transparent exports were not found; cream backgrounds are preserved. Full-size WebP files are lossless and pixel-identical to the source crops. Smaller responsive candidates are downsampled only. HTML supplies section copy, Hero values, and current character names.
 
 | Asset | Source attachment | Crop (left, top, right, bottom) | Size |

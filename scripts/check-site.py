@@ -15,9 +15,19 @@ class Document(HTMLParser):
         self.headings = 0
         self.errors = []
         self.lang = None
+        self.social_images = []
 
     def handle_starttag(self, tag, attributes):
         attributes = dict(attributes)
+        if tag == "meta" and (attributes.get("property") == "og:image" or attributes.get("name") == "twitter:image"):
+            image_url = attributes.get("content", "")
+            self.social_images.append(image_url)
+            # Social crawlers require a public absolute URL. Validate its bundled file too.
+            parsed = urlsplit(image_url)
+            if parsed.scheme != "https" or not parsed.netloc:
+                self.errors.append("Social image must use an absolute HTTPS URL")
+            if "/assets/images/" in parsed.path:
+                self.references.append("assets/images/" + parsed.path.split("/assets/images/", 1)[1])
         if tag == "html":
             self.lang = attributes.get("lang")
         if tag == "h1":
