@@ -1,0 +1,80 @@
+{
+  "images": [
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+      "lazy": "auto",
+      "src": "assets/images/jikyuchan-normal.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+      "lazy": "auto",
+      "src": "assets/images/hero-room.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+      "lazy": "lazy",
+      "src": "assets/images/jikyuchan.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+      "lazy": "lazy",
+      "src": "assets/images/okaneko.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+      "lazy": "lazy",
+      "src": "assets/images/tamepyon.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+      "lazy": "lazy",
+      "src": "assets/images/price-room.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+      "lazy": "lazy",
+      "src": "assets/images/jikyuchan-normal.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+      "lazy": "lazy",
+      "src": "assets/images/okaneko.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+      "lazy": "lazy",
+      "src": "assets/images/jikyuchan-thinking.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+      "lazy": "lazy",
+      "src": "assets/images/gamanmaru.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+      "lazy": "lazy",
+      "src": "assets/images/gaman-friends.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+      "lazy": "lazy",
+      "src": "assets/images/goal-room.webp"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+      "lazy": "lazy",
+      "src": "assets/images/icon-night.svg"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+      "lazy": "lazy",
+      "src": "assets/images/icon-shopping.svg"
+    },
+    {
+      "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+      "lazy": "lazy",
+      "src": "assets/images/gamanmaru.webp"
+    }
+  ],
+  "width": 390
+}

@@ -61,6 +61,17 @@ h1, h2, h3 { font-weight: 800; line-height: 1.55; }
 .platform-note { font-size: 11px; color: #735240; }
 .hero-art { grid-column: 2; grid-row: 1 / span 2; align-self: stretch; display: flex; align-items: center; margin-left: -25px; margin-right: -5px; }
 .hero-art img { width: 100%; border-radius: 26px; mask-image: linear-gradient(to right, transparent, #000 8%, #000 97%, transparent); }
+.hero-visual { position: relative; width: 100%; aspect-ratio: 374 / 265; container-type: inline-size; }
+.hero-visual picture { display: block; }
+/* Replace only the raster lettering. Illustration pixels and card outline remain intact. */
+.hero-visual img { clip-path: url(#hero-text-cutout); }
+.hero-price, .hero-time, .hero-wage { position: absolute; display: flex; align-items: center; justify-content: center; background: #fef8f0; white-space: nowrap; line-height: 1; }
+.hero-price { left: 60%; top: 19%; width: 23.5%; height: 13%; color: #582c20; font-size: 5.15cqw; font-weight: 800; }
+.hero-time { left: 55%; top: 33.5%; width: 35%; height: 12.5%; gap: .7cqw; color: #ed5f77; }
+.hero-time > span { color: #704636; font-size: 3.8cqw; }
+.hero-time strong { font-size: 5.8cqw; letter-spacing: -.04em; }
+.hero-time small { font-size: .72em; }
+.hero-wage { left: 59%; top: 48.5%; width: 26%; height: 8%; color: #806d60; font-size: 1.95cqw; }
 .character-section { display: grid; grid-template-columns: 40% 60%; gap: 8px; background: #fffdfa; border: 1px solid #fff; border-radius: 28px; padding: 28px 30px; margin-bottom: 16px; }
 .character-copy h2 { font-size: 23px; letter-spacing: .035em; margin-bottom: 10px; }
 .intro-dot { display: inline-flex; width: 26px; height: 26px; border-radius: 50%; background: var(--pink); color: white; align-items: center; justify-content: center; font-size: 18px; margin-right: 7px; }
@@ -82,6 +93,9 @@ h1, h2, h3 { font-weight: 800; line-height: 1.55; }
 .story-heading h2 span { color: #b94731; }
 .price-stage { display: flex; justify-content: flex-end; align-items: flex-end; position: relative; margin-top: 20px; padding-right: 10px; }
 .price-room { position: absolute; width: 49%; left: -16px; bottom: 0; border-radius: 10px; }
+.price-room { aspect-ratio: 150 / 148; container-type: inline-size; }
+.price-room img { width: 100%; clip-path: url(#price-text-cutout); }
+.price-caption { position: absolute; left: 19%; top: 15%; width: 48%; height: 21%; display: flex; align-items: center; justify-content: center; text-align: center; background: #fffaf6; mix-blend-mode: multiply; font-size: 5.55cqw; font-weight: 800; line-height: 1.3; }
 .phone { width: 196px; flex: 0 0 auto; border: 4px solid #715746; box-shadow: 2px 4px 0 #9f7c5725, inset 0 0 0 2px #ead3bc; border-radius: 26px 26px 0 0; background: #fffaf4; min-height: 267px; text-align: center; padding: 7px 13px 12px; position: relative; z-index: 1; }
 .phone-status { display: flex; justify-content: space-between; padding: 0 4px; font-size: 8px; font-weight: 800; line-height: 1.3; }
 .phone-title { font-size: 9px; font-weight: 800; margin-top: -1px; margin-bottom: 12px; }
@@ -159,6 +173,7 @@ h1, h2, h3 { font-weight: 800; line-height: 1.55; }
 .thought-bubble { display: inline-block; border: 1px solid #deb794; background: #fffdfa; border-radius: 60% 50% 60% 35%; font-size: 10px; font-weight: 700; padding: 9px 11px; margin-bottom: 5px; }
 .thought-bubble span { color: #dd9e23; font-size: 17px; }
 .discovery-companion img { width: 145px; margin: auto; }
+.discovery-companion img { aspect-ratio: 144 / 117; object-fit: contain; }
 .reveal-button { border: 1px solid #edb9a4; background: #fffdfa; color: #a14527; min-height: 44px; border-radius: 999px; padding: 8px 15px; font-size: 12px; font-weight: 800; }
 .reveal-button:hover { background: #fff0e4; }
 .discovery-result { border: 1px solid #f2cda9; background: #fffaf0; padding: 12px 15px; border-radius: 15px; text-align: left; }

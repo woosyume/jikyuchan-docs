@@ -1,6 +1,6 @@
 # Supplied artwork provenance
 
-All artwork is cropped from the user's approved attachments. No replacement artwork was generated. Original source boards are not bundled. Artwork is not available as independent high-resolution/transparent exports; cream backgrounds are preserved. HTML supplies all section copy and current character names.
+All artwork is cropped from the user's approved attachments. No replacement artwork was generated. Original source boards are not bundled. Matching independent high-resolution/transparent exports were not found; cream backgrounds are preserved. Full-size WebP files are lossless and pixel-identical to the source crops. Smaller responsive candidates are downsampled only. HTML supplies section copy, Hero values, and current character names.
 
 | Asset | Source attachment | Crop (left, top, right, bottom) | Size |
 | --- | --- | --- | --- |
@@ -30,4 +30,10 @@ All artwork is cropped from the user's approved attachments. No replacement artw
 | `icon-night.webp` | ChatGPT Image Oct 4, 2026, 10_32_27 AM.png | `(662, 257, 703, 296)` | 41 × 39 |
 | `icon-shopping.webp` | ChatGPT Image Oct 4, 2026, 10_32_27 AM.png | `(460, 254, 496, 295)` | 36 × 41 |
 
-`apple-touch-icon.png` and `favicon.png` are resized crops of `app-icon.webp`.
+`apple-touch-icon.png` is the original 152×148px app-icon crop centered in a152×152px canvas (no upscaling). `favicon.png` is a64×64px downsample.
+
+Responsive derivatives: `hero-room-320.webp`, `jikyuchan-100.webp`, `okaneko-104.webp`, `tamepyon-112.webp`, `jikyuchan-normal-64.webp`, `jikyuchan-happy-74.webp`, `jikyuchan-thinking-72.webp`, `gamanmaru-106.webp`.
+
+`icon-night.svg` and `icon-shopping.svg` are manually authored simple vector icons following the Share Card Master's crescent/bag shapes and colors; no character tracing. Their old WebP crops remain available as provenance/reference, but are not served by the page. The wordmark is HTML text and the Apple symbol is inline SVG.
+
+App repository assets were inspected but rejected where face/pose/props/composition differed. See `docs/asset-audit-before.md` and `docs/retina-quality-report.md` for remaining source gaps.

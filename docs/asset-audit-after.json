@@ -1,0 +1,189 @@
+[
+  {
+    "asset": "apple-touch-icon.png",
+    "before": "180×180",
+    "max_display": "60×60",
+    "required": "120×120",
+    "after": "152×152",
+    "source": "Character Master",
+    "format": "PNG",
+    "status": "ALREADY_OK",
+    "bytes": 31237
+  },
+  {
+    "asset": "discovery-friends.webp",
+    "before": "217×57",
+    "max_display": "262.7×69",
+    "required": "526×138",
+    "after": "217×57",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 18172
+  },
+  {
+    "asset": "favicon.png",
+    "before": "32×32",
+    "max_display": "16×16",
+    "required": "32×32",
+    "after": "64×64",
+    "source": "Character Master",
+    "format": "PNG",
+    "status": "ALREADY_OK",
+    "bytes": 7748
+  },
+  {
+    "asset": "gaman-friends.webp",
+    "before": "301×83",
+    "max_display": "552×168.2",
+    "required": "1104×337",
+    "after": "301×83",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 32608
+  },
+  {
+    "asset": "gamanmaru.webp",
+    "before": "209×151",
+    "max_display": "90×65",
+    "required": "180×130",
+    "after": "209×151",
+    "source": "UI Master",
+    "format": "WebP lossless",
+    "status": "ALREADY_OK",
+    "bytes": 29454
+  },
+  {
+    "asset": "goal-room.webp",
+    "before": "91×99",
+    "max_display": "125.8×136.8",
+    "required": "252×274",
+    "after": "91×99",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 13942
+  },
+  {
+    "asset": "hero-room.webp",
+    "before": "374×265",
+    "max_display": "647.9×459.1",
+    "required": "1296×919",
+    "after": "374×265",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 105082
+  },
+  {
+    "asset": "icon-night.webp",
+    "before": "41×39",
+    "max_display": "32×34",
+    "required": "64×68",
+    "after": "vector",
+    "source": "Share Card Master",
+    "format": "SVG",
+    "status": "FIXED",
+    "bytes": 435
+  },
+  {
+    "asset": "icon-shopping.webp",
+    "before": "36×41",
+    "max_display": "32×34",
+    "required": "64×68",
+    "after": "vector",
+    "source": "Share Card Master",
+    "format": "SVG",
+    "status": "FIXED",
+    "bytes": 578
+  },
+  {
+    "asset": "jikyuchan-happy.webp",
+    "before": "146×113",
+    "max_display": "145×117.8",
+    "required": "290×236",
+    "after": "146×113",
+    "source": "UI Master",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 17790
+  },
+  {
+    "asset": "jikyuchan-normal.webp",
+    "before": "123×110",
+    "max_display": "61.5×55",
+    "required": "123×110",
+    "after": "123×110",
+    "source": "UI Master",
+    "format": "WebP lossless",
+    "status": "ALREADY_OK",
+    "bytes": 14186
+  },
+  {
+    "asset": "jikyuchan-thinking.webp",
+    "before": "144×117",
+    "max_display": "145×117.8",
+    "required": "290×236",
+    "after": "144×117",
+    "source": "UI Master",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 16900
+  },
+  {
+    "asset": "jikyuchan.webp",
+    "before": "197×185",
+    "max_display": "203.6×150",
+    "required": "408×300",
+    "after": "197×185",
+    "source": "Character Master",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 32664
+  },
+  {
+    "asset": "okaneko.webp",
+    "before": "208×184",
+    "max_display": "231.8×205.1",
+    "required": "464×411",
+    "after": "208×184",
+    "source": "Character Master",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 37698
+  },
+  {
+    "asset": "price-room.webp",
+    "before": "150×148",
+    "max_display": "247×243.7",
+    "required": "494×488",
+    "after": "150×148",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 25500
+  },
+  {
+    "asset": "reading-room.webp",
+    "before": "106×147",
+    "max_display": "103×142.8",
+    "required": "206×286",
+    "after": "106×147",
+    "source": "Website mockup",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 23264
+  },
+  {
+    "asset": "tamepyon.webp",
+    "before": "223×183",
+    "max_display": "203.6×150",
+    "required": "408×300",
+    "after": "223×183",
+    "source": "Character Master",
+    "format": "WebP lossless",
+    "status": "NEEDS_SOURCE_ASSET",
+    "bytes": 39340
+  }
+]

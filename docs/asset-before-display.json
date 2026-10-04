@@ -1,0 +1,1290 @@
+[
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 211.1484375,
+        "shown": true,
+        "w": 298
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 121.6484375,
+        "shown": true,
+        "w": 123.296875
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 113.9140625,
+        "shown": true,
+        "w": 128.7734375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.43666076660156
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 98.71875,
+        "shown": true,
+        "w": 300
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 68.4375,
+        "shown": true,
+        "w": 62.9140625
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 95.71875,
+        "shown": true,
+        "w": 117.8125
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 255.078125,
+        "shown": true,
+        "w": 360
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 143.8515625,
+        "shown": true,
+        "w": 145.796875
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 134.703125,
+        "shown": true,
+        "w": 152.2734375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 115.8203125,
+        "shown": true,
+        "w": 362
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 80.40625,
+        "shown": true,
+        "w": 73.9140625
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 361.359375,
+        "shown": true,
+        "w": 510
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "shown": true,
+        "w": 154.671875
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 210.4453125,
+        "shown": true,
+        "w": 213.296875
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 197.0625,
+        "shown": true,
+        "w": 222.7734375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 157.1796875,
+        "shown": true,
+        "w": 512
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 116.3125,
+        "shown": true,
+        "w": 106.9140625
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 540
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 361.359375,
+        "shown": true,
+        "w": 510
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 130,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 130,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 130,
+        "shown": true,
+        "w": 154.671875
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 210.4453125,
+        "shown": true,
+        "w": 213.296875
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 197.0625,
+        "shown": true,
+        "w": 222.7734375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 157.1796875,
+        "shown": true,
+        "w": 512
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 116.3125,
+        "shown": true,
+        "w": 106.9140625
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 700
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.453125,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 281.75,
+        "shown": true,
+        "w": 397.6484375
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 116,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 116,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 116,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 140.4453125,
+        "shown": true,
+        "w": 142.34375
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 118.203125,
+        "shown": true,
+        "w": 133.625
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.43666076660156
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 104.921875,
+        "shown": true,
+        "w": 322.5
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 81.0625,
+        "shown": true,
+        "w": 74.515625
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 99.125,
+        "shown": true,
+        "w": 122.0078125
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 701
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.453125,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 402.5078125,
+        "shown": true,
+        "w": 568.078125
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 116,
+        "shown": true,
+        "w": 169.4765625
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 116,
+        "shown": true,
+        "w": 169.4765625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 116,
+        "shown": true,
+        "w": 169.484375
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 212.71875,
+        "shown": true,
+        "w": 215.59375
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 179.0390625,
+        "shown": true,
+        "w": 202.3984375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 146.1484375,
+        "shown": true,
+        "w": 472
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 120.1015625,
+        "shown": true,
+        "w": 110.3984375
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 1000
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.453125,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 459.0546875,
+        "shown": true,
+        "w": 647.875
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.6015625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 243.65625,
+        "shown": true,
+        "w": 246.953125
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 205.078125,
+        "shown": true,
+        "w": 231.8359375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 168.2109375,
+        "shown": true,
+        "w": 552
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 136.8125,
+        "shown": true,
+        "w": 125.7578125
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 142.8359375,
+        "shown": true,
+        "w": 103
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 1160
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.453125,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "class": "",
+        "file": "assets/images/hero-room.webp",
+        "h": 459.0546875,
+        "shown": true,
+        "w": 647.875
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "class": "",
+        "file": "assets/images/okaneko.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.6015625
+      },
+      {
+        "class": "",
+        "file": "assets/images/tamepyon.webp",
+        "h": 150,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "class": "price-room artwork",
+        "file": "assets/images/price-room.webp",
+        "h": 243.65625,
+        "shown": true,
+        "w": 246.953125
+      },
+      {
+        "class": "phone-character artwork",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "shown": true,
+        "w": 61.5
+      },
+      {
+        "class": "think-character artwork",
+        "file": "assets/images/okaneko.webp",
+        "h": 205.078125,
+        "shown": true,
+        "w": 231.8359375
+      },
+      {
+        "class": "choice-portrait artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "class": "gaman-token artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.51025390625,
+        "shown": true,
+        "w": 79.4366455078125
+      },
+      {
+        "class": "gaman-scene artwork",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 168.2109375,
+        "shown": true,
+        "w": 552
+      },
+      {
+        "class": "goal-character artwork",
+        "file": "assets/images/goal-room.webp",
+        "h": 136.8125,
+        "shown": true,
+        "w": 125.7578125
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-night.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "insight-symbol",
+        "file": "assets/images/icon-shopping.webp",
+        "h": 34,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "class": "",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 33.953125,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "class": "reading-character artwork",
+        "file": "assets/images/reading-room.webp",
+        "h": 142.8359375,
+        "shown": true,
+        "w": 103
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "class": "discovery-friends artwork",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "class": "final-character artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "class": "final-gaman artwork",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "class": "",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "class": "artwork",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "overflow": false,
+    "width": 1440
+  }
+]

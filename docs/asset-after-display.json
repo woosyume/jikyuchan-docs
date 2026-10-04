@@ -1,0 +1,1775 @@
+[
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.171875,
+        "loaded": true,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 211.1484375,
+        "loaded": true,
+        "shown": true,
+        "w": 298
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 84
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 121.6484375,
+        "loaded": true,
+        "shown": true,
+        "w": 123.296875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 113.9140625,
+        "loaded": true,
+        "shown": true,
+        "w": 128.7734375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.8060302734375,
+        "loaded": true,
+        "shown": true,
+        "w": 79.46253967285156
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 98.71875,
+        "loaded": true,
+        "shown": true,
+        "w": 300
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 68.4375,
+        "loaded": true,
+        "shown": true,
+        "w": 62.9140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 95.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 117.8125
+      },
+      {
+        "current": "",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "loaded": false,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "loaded": false,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "loaded": false,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "loaded": false,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.171875,
+        "loaded": true,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 255.078125,
+        "loaded": true,
+        "shown": true,
+        "w": 360
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 104.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 143.8515625,
+        "loaded": true,
+        "shown": true,
+        "w": 145.796875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 134.703125,
+        "loaded": true,
+        "shown": true,
+        "w": 152.2734375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.80615234375,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 115.8203125,
+        "loaded": true,
+        "shown": true,
+        "w": 362
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 80.40625,
+        "loaded": true,
+        "shown": true,
+        "w": 73.9140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "loaded": false,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "current": "",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "loaded": false,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "loaded": false,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "loaded": false,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "loaded": false,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.171875,
+        "loaded": true,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 361.359375,
+        "loaded": true,
+        "shown": true,
+        "w": 510
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 99,
+        "loaded": true,
+        "shown": true,
+        "w": 154.671875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 210.4453125,
+        "loaded": true,
+        "shown": true,
+        "w": 213.296875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 197.0625,
+        "loaded": true,
+        "shown": true,
+        "w": 222.7734375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.80615234375,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 157.1796875,
+        "loaded": true,
+        "shown": true,
+        "w": 512
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 116.3125,
+        "loaded": true,
+        "shown": true,
+        "w": 106.9140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "loaded": false,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "current": "",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "loaded": false,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "loaded": false,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "loaded": false,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "loaded": false,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 540
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.171875,
+        "loaded": true,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 361.359375,
+        "loaded": true,
+        "shown": true,
+        "w": 510
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 130,
+        "loaded": true,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 130,
+        "loaded": true,
+        "shown": true,
+        "w": 154.6640625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 130,
+        "loaded": true,
+        "shown": true,
+        "w": 154.671875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 210.4453125,
+        "loaded": true,
+        "shown": true,
+        "w": 213.296875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 197.0625,
+        "loaded": true,
+        "shown": true,
+        "w": 222.7734375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.80615234375,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 157.1796875,
+        "loaded": true,
+        "shown": true,
+        "w": 512
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 116.3125,
+        "loaded": true,
+        "shown": true,
+        "w": 106.9140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 104,
+        "loaded": false,
+        "shown": true,
+        "w": 128
+      },
+      {
+        "current": "",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 65,
+        "loaded": false,
+        "shown": true,
+        "w": 247.453125
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 77.390625,
+        "loaded": false,
+        "shown": true,
+        "w": 100
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 44.0703125,
+        "loaded": false,
+        "shown": true,
+        "w": 61
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 31.296875,
+        "loaded": false,
+        "shown": true,
+        "w": 35
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 700
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.296875,
+        "loaded": true,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 281.75,
+        "loaded": true,
+        "shown": true,
+        "w": 397.6484375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 111.671875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 140.4453125,
+        "loaded": true,
+        "shown": true,
+        "w": 142.34375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 118.203125,
+        "loaded": true,
+        "shown": true,
+        "w": 133.625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.805908203125,
+        "loaded": true,
+        "shown": true,
+        "w": 79.46253967285156
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 104.921875,
+        "loaded": true,
+        "shown": true,
+        "w": 322.5
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 81.0625,
+        "loaded": true,
+        "shown": true,
+        "w": 74.515625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 99.125,
+        "loaded": true,
+        "shown": true,
+        "w": 122.0078125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/discovery-friends.webp",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "loaded": true,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "loaded": false,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "loaded": false,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 701
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.296875,
+        "loaded": true,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 308.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 435.8359375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 124.625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 124.625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 124.625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 156.640625,
+        "loaded": true,
+        "shown": true,
+        "w": 158.7578125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 131.8359375,
+        "loaded": true,
+        "shown": true,
+        "w": 149.0390625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.805908203125,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 114.1640625,
+        "loaded": true,
+        "shown": true,
+        "w": 356
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 89.8046875,
+        "loaded": true,
+        "shown": true,
+        "w": 82.5546875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 110.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 136.078125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/discovery-friends.webp",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "loaded": true,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-happy.webp",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "loaded": true,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.0234375,
+        "loaded": false,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.296875,
+        "loaded": true,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 402.5078125,
+        "loaded": true,
+        "shown": true,
+        "w": 568.078125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 169.4765625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 169.4765625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 116,
+        "loaded": true,
+        "shown": true,
+        "w": 169.484375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 212.71875,
+        "loaded": true,
+        "shown": true,
+        "w": 215.59375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 179.0390625,
+        "loaded": true,
+        "shown": true,
+        "w": 202.3984375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.805908203125,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 146.1484375,
+        "loaded": true,
+        "shown": true,
+        "w": 472
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 120.1015625,
+        "loaded": true,
+        "shown": true,
+        "w": 110.3984375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "",
+        "file": "assets/images/reading-room.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/discovery-friends.webp",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "loaded": true,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-happy.webp",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "loaded": true,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.375,
+        "loaded": true,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 1000
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.296875,
+        "loaded": true,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 459.0546875,
+        "loaded": true,
+        "shown": true,
+        "w": 647.875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.6015625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 243.65625,
+        "loaded": true,
+        "shown": true,
+        "w": 246.953125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 205.078125,
+        "loaded": true,
+        "shown": true,
+        "w": 231.8359375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.805908203125,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 168.2109375,
+        "loaded": true,
+        "shown": true,
+        "w": 552
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 136.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 125.7578125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/reading-room.webp",
+        "file": "assets/images/reading-room.webp",
+        "h": 142.8359375,
+        "loaded": true,
+        "shown": true,
+        "w": 103
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/discovery-friends.webp",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "loaded": true,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-happy.webp",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "loaded": true,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.375,
+        "loaded": true,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 1160
+  },
+  {
+    "dpr": 1,
+    "images": [
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 38.296875,
+        "loaded": true,
+        "shown": true,
+        "w": 43
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/hero-room.webp",
+        "file": "assets/images/hero-room.webp",
+        "h": 459.0546875,
+        "loaded": true,
+        "shown": true,
+        "w": 647.875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan.webp",
+        "file": "assets/images/jikyuchan.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.6015625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/tamepyon.webp",
+        "file": "assets/images/tamepyon.webp",
+        "h": 150,
+        "loaded": true,
+        "shown": true,
+        "w": 203.59375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/price-room.webp",
+        "file": "assets/images/price-room.webp",
+        "h": 243.65625,
+        "loaded": true,
+        "shown": true,
+        "w": 246.953125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 55,
+        "loaded": true,
+        "shown": true,
+        "w": 61.75
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/okaneko.webp",
+        "file": "assets/images/okaneko.webp",
+        "h": 205.078125,
+        "loaded": true,
+        "shown": true,
+        "w": 231.8359375
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 62.5625,
+        "loaded": true,
+        "shown": true,
+        "w": 77
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 60.805908203125,
+        "loaded": true,
+        "shown": true,
+        "w": 79.4625244140625
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gaman-friends.webp",
+        "file": "assets/images/gaman-friends.webp",
+        "h": 168.2109375,
+        "loaded": true,
+        "shown": true,
+        "w": 552
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/goal-room.webp",
+        "file": "assets/images/goal-room.webp",
+        "h": 136.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 125.7578125
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-night.svg",
+        "file": "assets/images/icon-night.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/icon-shopping.svg",
+        "file": "assets/images/icon-shopping.svg",
+        "h": 34,
+        "loaded": true,
+        "shown": true,
+        "w": 32
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 34.140625,
+        "loaded": true,
+        "shown": true,
+        "w": 47
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/reading-room.webp",
+        "file": "assets/images/reading-room.webp",
+        "h": 142.8359375,
+        "loaded": true,
+        "shown": true,
+        "w": 103
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-thinking.webp",
+        "file": "assets/images/jikyuchan-thinking.webp",
+        "h": 117.8125,
+        "loaded": true,
+        "shown": true,
+        "w": 145
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/discovery-friends.webp",
+        "file": "assets/images/discovery-friends.webp",
+        "h": 69,
+        "loaded": true,
+        "shown": true,
+        "w": 262.6796875
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-happy.webp",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 100.609375,
+        "loaded": true,
+        "shown": true,
+        "w": 130
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/gamanmaru-106.webp",
+        "file": "assets/images/gamanmaru.webp",
+        "h": 65.375,
+        "loaded": true,
+        "shown": true,
+        "w": 90
+      },
+      {
+        "current": "http://127.0.0.1:4173/_site/assets/images/jikyuchan-normal-64.webp",
+        "file": "assets/images/jikyuchan-normal.webp",
+        "h": 27.71875,
+        "loaded": false,
+        "shown": true,
+        "w": 31
+      },
+      {
+        "current": "",
+        "file": "assets/images/jikyuchan-happy.webp",
+        "h": 0,
+        "loaded": false,
+        "shown": false,
+        "w": 0
+      }
+    ],
+    "nativeHero": [
+      {
+        "overflow": false,
+        "text": "¥12,800"
+      },
+      {
+        "overflow": false,
+        "text": "＝6時間24分"
+      },
+      {
+        "overflow": false,
+        "text": "（時給 ¥2,000 の場合）"
+      }
+    ],
+    "overflow": false,
+    "width": 1440
+  }
+]

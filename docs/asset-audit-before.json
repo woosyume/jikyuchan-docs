@@ -1,0 +1,533 @@
+[
+  {
+    "asset": "assets/images/apple-touch-icon.png",
+    "format": "PNG",
+    "pixels": [
+      180,
+      180
+    ],
+    "desktop": [
+      60,
+      60
+    ],
+    "mobile": [
+      60,
+      60
+    ],
+    "max_css": [
+      60,
+      60
+    ],
+    "required_retina": [
+      120,
+      120
+    ],
+    "density": 2.47,
+    "source": "Character Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "BRAND / ICON",
+    "retina": true,
+    "bytes": 42513,
+    "effective_source_pixels": [
+      152,
+      148
+    ]
+  },
+  {
+    "asset": "assets/images/discovery-friends.webp",
+    "format": "WEBP",
+    "pixels": [
+      217,
+      57
+    ],
+    "desktop": [
+      262.7,
+      69
+    ],
+    "mobile": [
+      247.5,
+      65
+    ],
+    "max_css": [
+      263,
+      69
+    ],
+    "required_retina": [
+      526,
+      138
+    ],
+    "density": 0.83,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 5282
+  },
+  {
+    "asset": "assets/images/favicon.png",
+    "format": "PNG",
+    "pixels": [
+      32,
+      32
+    ],
+    "desktop": [
+      16,
+      16
+    ],
+    "mobile": [
+      16,
+      16
+    ],
+    "max_css": [
+      16,
+      16
+    ],
+    "required_retina": [
+      32,
+      32
+    ],
+    "density": 2.0,
+    "source": "Character Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "BRAND / ICON",
+    "retina": true,
+    "bytes": 2403
+  },
+  {
+    "asset": "assets/images/gaman-friends.webp",
+    "format": "WEBP",
+    "pixels": [
+      301,
+      83
+    ],
+    "desktop": [
+      552,
+      168.2
+    ],
+    "mobile": [
+      512,
+      157.2
+    ],
+    "max_css": [
+      552,
+      169
+    ],
+    "required_retina": [
+      1104,
+      337
+    ],
+    "density": 0.49,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 8220
+  },
+  {
+    "asset": "assets/images/gamanmaru.webp",
+    "format": "WEBP",
+    "pixels": [
+      209,
+      151
+    ],
+    "desktop": [
+      90,
+      65.0
+    ],
+    "mobile": [
+      79.4,
+      60.5
+    ],
+    "max_css": [
+      90,
+      66
+    ],
+    "required_retina": [
+      180,
+      130
+    ],
+    "density": 2.32,
+    "source": "UI Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": true,
+    "bytes": 5736
+  },
+  {
+    "asset": "assets/images/goal-room.webp",
+    "format": "WEBP",
+    "pixels": [
+      91,
+      99
+    ],
+    "desktop": [
+      125.8,
+      136.8
+    ],
+    "mobile": [
+      106.9,
+      116.3
+    ],
+    "max_css": [
+      126,
+      137
+    ],
+    "required_retina": [
+      252,
+      274
+    ],
+    "density": 0.72,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 4170
+  },
+  {
+    "asset": "assets/images/hero-room.webp",
+    "format": "WEBP",
+    "pixels": [
+      374,
+      265
+    ],
+    "desktop": [
+      647.9,
+      459.1
+    ],
+    "mobile": [
+      510,
+      361.4
+    ],
+    "max_css": [
+      648,
+      460
+    ],
+    "required_retina": [
+      1296,
+      919
+    ],
+    "density": 0.58,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "price/time/wage",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 24044
+  },
+  {
+    "asset": "assets/images/icon-night.webp",
+    "format": "WEBP",
+    "pixels": [
+      41,
+      39
+    ],
+    "desktop": [
+      32,
+      34
+    ],
+    "mobile": [
+      32,
+      34
+    ],
+    "max_css": [
+      32,
+      34
+    ],
+    "required_retina": [
+      64,
+      68
+    ],
+    "density": 1.15,
+    "source": "Share Card Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "BRAND / ICON",
+    "retina": false,
+    "bytes": 574
+  },
+  {
+    "asset": "assets/images/icon-shopping.webp",
+    "format": "WEBP",
+    "pixels": [
+      36,
+      41
+    ],
+    "desktop": [
+      32,
+      34
+    ],
+    "mobile": [
+      32,
+      34
+    ],
+    "max_css": [
+      32,
+      34
+    ],
+    "required_retina": [
+      64,
+      68
+    ],
+    "density": 1.12,
+    "source": "Share Card Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "BRAND / ICON",
+    "retina": false,
+    "bytes": 708
+  },
+  {
+    "asset": "assets/images/jikyuchan-happy.webp",
+    "format": "WEBP",
+    "pixels": [
+      146,
+      113
+    ],
+    "desktop": [
+      145,
+      112.2
+    ],
+    "mobile": [
+      128,
+      99.1
+    ],
+    "max_css": [
+      145,
+      113
+    ],
+    "required_retina": [
+      290,
+      225
+    ],
+    "density": 1.01,
+    "source": "UI Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": false,
+    "bytes": 4538
+  },
+  {
+    "asset": "assets/images/jikyuchan-normal.webp",
+    "format": "WEBP",
+    "pixels": [
+      123,
+      110
+    ],
+    "desktop": [
+      61.5,
+      55
+    ],
+    "mobile": [
+      61.5,
+      55
+    ],
+    "max_css": [
+      62,
+      55
+    ],
+    "required_retina": [
+      123,
+      110
+    ],
+    "density": 2.0,
+    "source": "UI Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": true,
+    "bytes": 3708
+  },
+  {
+    "asset": "assets/images/jikyuchan-thinking.webp",
+    "format": "WEBP",
+    "pixels": [
+      144,
+      117
+    ],
+    "desktop": [
+      145,
+      117.8
+    ],
+    "mobile": [
+      128,
+      104
+    ],
+    "max_css": [
+      145,
+      118
+    ],
+    "required_retina": [
+      290,
+      236
+    ],
+    "density": 0.99,
+    "source": "UI Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": false,
+    "bytes": 3980
+  },
+  {
+    "asset": "assets/images/jikyuchan.webp",
+    "format": "WEBP",
+    "pixels": [
+      197,
+      185
+    ],
+    "desktop": [
+      203.6,
+      150
+    ],
+    "mobile": [
+      154.7,
+      130
+    ],
+    "max_css": [
+      204,
+      150
+    ],
+    "required_retina": [
+      408,
+      300
+    ],
+    "density": 0.97,
+    "source": "Character Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": false,
+    "bytes": 7462
+  },
+  {
+    "asset": "assets/images/okaneko.webp",
+    "format": "WEBP",
+    "pixels": [
+      208,
+      184
+    ],
+    "desktop": [
+      231.8,
+      205.1
+    ],
+    "mobile": [
+      222.8,
+      197.1
+    ],
+    "max_css": [
+      232,
+      206
+    ],
+    "required_retina": [
+      464,
+      411
+    ],
+    "density": 0.9,
+    "source": "Character Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": false,
+    "bytes": 9012
+  },
+  {
+    "asset": "assets/images/price-room.webp",
+    "format": "WEBP",
+    "pixels": [
+      150,
+      148
+    ],
+    "desktop": [
+      247.0,
+      243.7
+    ],
+    "mobile": [
+      213.3,
+      210.4
+    ],
+    "max_css": [
+      247,
+      244
+    ],
+    "required_retina": [
+      494,
+      488
+    ],
+    "density": 0.61,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "speech bubble",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 6640
+  },
+  {
+    "asset": "assets/images/reading-room.webp",
+    "format": "WEBP",
+    "pixels": [
+      106,
+      147
+    ],
+    "desktop": [
+      103,
+      142.8
+    ],
+    "mobile": [
+      0,
+      0
+    ],
+    "max_css": [
+      103,
+      143
+    ],
+    "required_retina": [
+      206,
+      286
+    ],
+    "density": 1.03,
+    "source": "Website mockup",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "ILLUSTRATION",
+    "retina": false,
+    "bytes": 6522
+  },
+  {
+    "asset": "assets/images/tamepyon.webp",
+    "format": "WEBP",
+    "pixels": [
+      223,
+      183
+    ],
+    "desktop": [
+      203.6,
+      150
+    ],
+    "mobile": [
+      154.7,
+      130
+    ],
+    "max_css": [
+      204,
+      150
+    ],
+    "required_retina": [
+      408,
+      300
+    ],
+    "density": 1.1,
+    "source": "Character Master",
+    "alpha": false,
+    "embedded_text": "none",
+    "category": "CHARACTER",
+    "retina": false,
+    "bytes": 8994
+  }
+]

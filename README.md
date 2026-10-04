@@ -16,6 +16,7 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 ```sh
 python3 scripts/check-site.py
+python3 scripts/build-site.py
 ```
 
 ## GitHub Pages 배포
@@ -89,3 +90,11 @@ python3 scripts/extract-assets.py '/path/to/original-attachments'
 - `docs/`: 화면 검증 기록과 미리보기 이미지.
 
 화면 검증 결과는 [docs/visual-qa.md](docs/visual-qa.md)를 참고하세요.
+
+## Asset / Retina 개선 기록
+
+전체 감사와 해상도 비교표, 필요한 정확한 원본 구도·표정, 최종 판정은 [docs/retina-quality-report.md](docs/retina-quality-report.md)에 기록했습니다. 승인된 그림을 그대로 유지하며 원본 보드 crop을 무손실 WebP로 재저장했습니다. 작은 responsive 후보 8개, 달·쇼핑백 SVG, Hero와 말풍선의 HTML 문구, preload/srcset/sizes, lazy loading과 명시적 dimensions를 적용했습니다. Apple touch icon의 기존 확대는 제거했습니다.
+
+인접 앱 저장소의 원본은 현재 Master와 얼굴·표정·소품·구도가 달라 교체하지 않았습니다. Hero 등 11개 자산은 동일한 고해상도 원본이 필요하며 전체 Retina 품질이 완료된 상태는 아닙니다. 물리적 Retina 캡처는 제공 도구의 DPR=1 제한 때문에 수행하지 못했고, 실제 1440px/390px 브라우저 화면과 해상도 계산을 함께 검증했습니다.
+
+`scripts/build-site.py`는 로컬과 GitHub Actions에서 같은 공개 산출물을 생성합니다. 현재 페이지/JS가 참조하는 WebP/PNG/SVG만 포함하며 문서·원본 목록·사용하지 않는 UI crop은 배포하지 않습니다. `CNAME`이 있으면 함께 복사합니다.

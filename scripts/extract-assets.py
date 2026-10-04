@@ -51,19 +51,46 @@ crops = {
 manifest = []
 for name, (source, box) in crops.items():
     crop = images[source].crop(box)
-    crop.save(output / f"{name}.webp", "WEBP", quality=92, method=6)
+    # Preserve every source pixel. A higher quality setting cannot create detail.
+    crop.save(output / f"{name}.webp", "WEBP", lossless=True, method=6)
     manifest.append(f"| `{name}.webp` | {boards[source]} | `{box}` | {crop.width} × {crop.height} |")
-icon = images["character"].crop(crops["app-icon"][1]).resize((180, 180), Image.Resampling.LANCZOS)
+# Responsive candidates are smaller derivatives, never enlarged sources.
+responsive = {
+    "hero-room": 320, "jikyuchan": 100, "okaneko": 104,
+    "tamepyon": 112, "jikyuchan-normal": 64,
+    "jikyuchan-happy": 74, "jikyuchan-thinking": 72, "gamanmaru": 106,
+}
+for name, width in responsive.items():
+    source, box = crops[name]
+    crop = images[source].crop(box)
+    height = round(crop.height * width / crop.width)
+    crop.resize((width, height), Image.Resampling.LANCZOS).save(
+        output / f"{name}-{width}.webp", "WEBP", lossless=True, method=6
+    )
+icon_source = images["character"].crop(crops["app-icon"][1])
+# Keep the original detail rather than the previous 152 -> 180px enlargement.
+icon = Image.new("RGB", (152, 152), icon_source.getpixel((0, 0)))
+icon.paste(icon_source, (0, 2))
 icon.save(output / "apple-touch-icon.png")
-icon.resize((32, 32), Image.Resampling.LANCZOS).save(output / "favicon.png")
+icon_source.resize((64, 64), Image.Resampling.LANCZOS).save(output / "favicon.png")
 (output / "SOURCES.md").write_text(
     "# Supplied artwork provenance\n\nAll artwork is cropped from the user's approved attachments. "
     "No replacement artwork was generated. Original source boards are not bundled. "
-    "Artwork is not available as independent high-resolution/transparent exports; "
-    "cream backgrounds are preserved. HTML supplies all section copy and current character names.\n\n"
+    "Matching independent high-resolution/transparent exports were not found; "
+    "cream backgrounds are preserved. Full-size WebP files are lossless and pixel-identical "
+    "to the source crops. Smaller responsive candidates are downsampled only. "
+    "HTML supplies section copy, Hero values, and current character names.\n\n"
     "| Asset | Source attachment | Crop (left, top, right, bottom) | Size |\n"
     "| --- | --- | --- | --- |\n" + "\n".join(manifest) + "\n\n"
-    "`apple-touch-icon.png` and `favicon.png` are resized crops of `app-icon.webp`.\n",
+    "`apple-touch-icon.png` is the original 152×148px app-icon crop centered in a152×152px "
+    "canvas (no upscaling). `favicon.png` is a64×64px downsample.\n\n"
+    "Responsive derivatives: " + ", ".join(f"`{name}-{width}.webp`" for name, width in responsive.items()) + ".\n\n"
+    "`icon-night.svg` and `icon-shopping.svg` are manually authored simple vector icons "
+    "following the Share Card Master's crescent/bag shapes and colors; no character tracing. "
+    "Their old WebP crops remain available as provenance/reference, but are not served by the page. "
+    "The wordmark is HTML text and the Apple symbol is inline SVG.\n\n"
+    "App repository assets were inspected but rejected where face/pose/props/composition differed. "
+    "See `docs/asset-audit-before.md` and `docs/retina-quality-report.md` for remaining source gaps.\n",
     encoding="utf-8",
 )
-print(f"Extracted {len(crops)} WebP assets and 2 PNG icons.")
+print(f"Extracted {len(crops)} lossless crops, {len(responsive)} smaller candidates, and 2 PNG icons; no upscaling.")

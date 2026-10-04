@@ -18,9 +18,9 @@
   <meta property="og:image:height" content="265">
   <meta property="og:image:alt" content="あたたかいお部屋のじきゅうちゃん。12,800円は、はたらく時間6時間24分。">
   <meta name="twitter:card" content="summary">
-  <link rel="icon" type="image/png" href="assets/images/favicon.png">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-  <link rel="preload" as="image" href="assets/images/hero-room.webp">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon.png">
+  <link rel="preload" as="image" type="image/webp" href="assets/images/hero-room.webp" imagesrcset="assets/images/hero-room-320.webp 320w, assets/images/hero-room.webp 374w" imagesizes="(max-width: 359px) calc(100vw - 22px), (max-width: 540px) calc(100vw - 30px), (max-width: 700px) 510px, (max-width: 1000px) calc(57vw - 2px), (max-width: 1159px) calc(57vw - 13.4px), 648px">
   <link rel="stylesheet" href="styles.css">
   <script src="site.js" defer></script>
 </head>
@@ -29,7 +29,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="#home" aria-label="じきゅうちゃん ホーム">
-        <img src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt="">
+        <img src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt="" srcset="assets/images/jikyuchan-normal-64.webp 64w, assets/images/jikyuchan-normal.webp 123w" sizes="(max-width: 700px) 35px, 43px" decoding="async">
         <span>じきゅうちゃん</span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>
@@ -55,7 +55,15 @@
         <p class="hero-support">じきゅうちゃんと一緒なら、<br>自分でも知らなかった「ほしい」のクセも<br class="mobile-break">見えてきます。</p>
       </div>
       <div class="hero-art">
-        <img src="assets/images/hero-room.webp" width="374" height="265" alt="じきゅうちゃんとがまんまるがいる、あたたかいお部屋。12,800円は、時給2,000円なら6時間24分。" fetchpriority="high">
+        <div class="hero-visual">
+          <picture>
+            <source type="image/webp" srcset="assets/images/hero-room-320.webp 320w, assets/images/hero-room.webp 374w" sizes="(max-width: 359px) calc(100vw - 22px), (max-width: 540px) calc(100vw - 30px), (max-width: 700px) 510px, (max-width: 1000px) calc(57vw - 2px), (max-width: 1159px) calc(57vw - 13.4px), 648px">
+            <img src="assets/images/hero-room.webp" width="374" height="265" alt="じきゅうちゃんとがまんまるがいる、あたたかいお部屋。" fetchpriority="high" decoding="async">
+          </picture>
+          <div class="hero-price">¥12,800</div>
+          <div class="hero-time"><span aria-hidden="true">＝</span><strong>6<small>時間</small>24<small>分</small></strong></div>
+          <div class="hero-wage">（時給 ¥2,000 の場合）</div>
+        </div>
       </div>
       <div class="hero-cta"><div class="cta-group">
         <button class="store-button" type="button" data-store><svg class="apple-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#apple-symbol"/></svg>App Storeで近日公開</button>
@@ -71,15 +79,15 @@
       </div>
       <div class="character-lineup">
         <figure>
-          <img src="assets/images/jikyuchan.webp" width="197" height="185" alt="小さな芽とまるいからだのじきゅうちゃん" loading="lazy">
+          <img src="assets/images/jikyuchan.webp" width="197" height="185" alt="小さな芽とまるいからだのじきゅうちゃん" loading="lazy" srcset="assets/images/jikyuchan-100.webp 100w, assets/images/jikyuchan.webp 197w" sizes="(max-width: 359px) calc((100vw - 68px) / 3), (max-width: 540px) calc((100vw - 76px) / 3), (max-width: 700px) 155px, (max-width: 1000px) calc(19.333vw - 23.854px), 204px" decoding="async">
           <figcaption><h3>じきゅうちゃん</h3><p>やさしくて がんばりやな<br>まるい生きもの</p></figcaption>
         </figure>
         <figure>
-          <img src="assets/images/okaneko.webp" width="208" height="184" alt="お金といっしょに暮らす三毛ねこのおかねこ" loading="lazy">
+          <img src="assets/images/okaneko.webp" width="208" height="184" alt="お金といっしょに暮らす三毛ねこのおかねこ" loading="lazy" srcset="assets/images/okaneko-104.webp 104w, assets/images/okaneko.webp 208w" sizes="(max-width: 359px) calc((100vw - 68px) / 3), (max-width: 540px) calc((100vw - 76px) / 3), (max-width: 700px) 155px, (max-width: 1000px) calc(19.333vw - 23.854px), 204px" decoding="async">
           <figcaption><h3>おかねこ</h3><p>お金といっしょに暮らす<br>しっかり者のねこ</p></figcaption>
         </figure>
         <figure>
-          <img src="assets/images/tamepyon.webp" width="223" height="183" alt="にんじんを抱えた、長い耳のためぴょん" loading="lazy">
+          <img src="assets/images/tamepyon.webp" width="223" height="183" alt="にんじんを抱えた、長い耳のためぴょん" loading="lazy" srcset="assets/images/tamepyon-112.webp 112w, assets/images/tamepyon.webp 223w" sizes="(max-width: 359px) calc((100vw - 68px) / 3), (max-width: 540px) calc((100vw - 76px) / 3), (max-width: 700px) 155px, (max-width: 1000px) calc(19.333vw - 23.854px), 204px" decoding="async">
           <figcaption><h3>ためぴょん</h3><p>頑張るあなたに寄り添う<br>やさしいうさぎ</p></figcaption>
         </figure>
       </div>
@@ -90,7 +98,10 @@
         <div class="story-heading"><span class="step">1</span><h2 id="price-title">値段を<span>「時間」</span>で見てみる。</h2></div>
         <p class="story-copy">同じ値段でも、はたらく時間に換算すると、<br>少し違って見えるかもしれません。</p>
         <div class="price-stage">
-          <img class="price-room artwork" src="assets/images/price-room.webp" width="150" height="148" alt="この買い物、何時間ぶん…？と考えるじきゅうちゃん" loading="lazy">
+          <div class="price-room">
+            <img class="artwork" src="assets/images/price-room.webp" width="150" height="148" alt="買いものについて考えるじきゅうちゃん" loading="lazy" decoding="async">
+            <p class="price-caption">この買い物、<br>何時間ぶん…？</p>
+          </div>
           <div class="phone" aria-label="アプリの計算結果の表示例">
             <div class="phone-status" aria-hidden="true"><span>9:41</span><span>● ▰</span></div>
             <div class="phone-title">じきゅうちゃん</div>
@@ -98,7 +109,7 @@
             <div class="time-result"><strong>6<span>時間</span>24<span>分</span></strong></div>
             <p class="phone-message">はたらくと買えるよ！</p>
             <p class="phone-note">時給 ¥2,000 の場合</p>
-            <img class="phone-character artwork" src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt="" loading="lazy">
+            <img class="phone-character artwork" src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt="" loading="lazy" srcset="assets/images/jikyuchan-normal-64.webp 64w, assets/images/jikyuchan-normal.webp 123w" sizes="62px" decoding="async">
             <span class="sample-button">次へ</span>
             <span class="home-indicator" aria-hidden="true"></span>
           </div>
@@ -109,12 +120,12 @@
         <div class="story-heading"><span class="step">2</span><h2 id="think-title">じきゅうちゃんと考える。</h2></div>
         <p class="story-copy">がまんするのが正解とは限りません。<br>買ってもいい。もう少し考えてもいい。<br>大切なのは、一度立ち止まって選ぶこと。</p>
         <div class="think-stage">
-          <img class="think-character artwork" src="assets/images/okaneko.webp" width="208" height="184" alt="いっしょに考えてくれるおかねこ" loading="lazy">
+          <img class="think-character artwork" src="assets/images/okaneko.webp" width="208" height="184" alt="いっしょに考えてくれるおかねこ" loading="lazy" srcset="assets/images/okaneko-104.webp 104w, assets/images/okaneko.webp 208w" sizes="(max-width: 700px) 223px, 232px" decoding="async">
           <div class="phone choice-phone" aria-label="アプリの選択画面の表示例">
             <div class="phone-status" aria-hidden="true"><span>9:41</span><span>● ▰</span></div>
             <div class="phone-title">じきゅうちゃん</div>
             <p class="choice-question">これ、買う？</p>
-            <img class="choice-portrait artwork" src="assets/images/jikyuchan-thinking.webp" width="144" height="117" alt="" loading="lazy">
+            <img class="choice-portrait artwork" src="assets/images/jikyuchan-thinking.webp" width="144" height="117" alt="" loading="lazy" srcset="assets/images/jikyuchan-thinking-72.webp 72w, assets/images/jikyuchan-thinking.webp 144w" sizes="77px" decoding="async">
             <div class="sample-choices"><span class="sample-button">がまんする</span><span class="sample-button secondary">やっぱり買う</span><span class="sample-button secondary">もう少し考える</span></div>
             <span class="home-indicator" aria-hidden="true"></span>
           </div>
@@ -125,16 +136,16 @@
         <div class="story-heading"><span class="step">3</span><h2 id="gaman-title">小さな選択が、<br><span>がまんまる</span>になる。</h2></div>
         <div class="gaman-description">
           <p class="story-copy">「今回はやめておこう。」<br>そんな選択も、じきゅうちゃんの世界では<br>小さな積み重ねになります。</p>
-          <img class="gaman-token artwork" src="assets/images/gamanmaru.webp" width="209" height="151" alt="小さな芽とやさしい顔のがまんまる" loading="lazy">
+          <img class="gaman-token artwork" src="assets/images/gamanmaru.webp" width="209" height="151" alt="小さな芽とやさしい顔のがまんまる" loading="lazy" srcset="assets/images/gamanmaru-106.webp 106w, assets/images/gamanmaru.webp 209w" sizes="90px" decoding="async">
         </div>
-        <img class="gaman-scene artwork" src="assets/images/gaman-friends.webp" width="301" height="83" alt="じきゅうちゃんのそばに集まったがまんまるたち" loading="lazy">
+        <img class="gaman-scene artwork" src="assets/images/gaman-friends.webp" width="301" height="83" alt="じきゅうちゃんのそばに集まったがまんまるたち" loading="lazy" decoding="async">
       </section>
 
       <section class="story-card goal-card" aria-labelledby="goal-title">
         <div class="story-heading"><span class="step">4</span><h2 id="goal-title">がまんするためじゃない。<br>本当にほしいもののために。</h2></div>
         <p class="story-copy">欲しいものを全部あきらめるのではなく、<br>自分にとって大切なものを選ぶ。<br>Goalは、その理由を忘れないための場所です。</p>
         <div class="goal-stage">
-          <img class="goal-character artwork" src="assets/images/goal-room.webp" width="91" height="99" alt="旅じたくをしたじきゅうちゃんと仲間たち" loading="lazy">
+          <img class="goal-character artwork" src="assets/images/goal-room.webp" width="91" height="99" alt="旅じたくをしたじきゅうちゃんと仲間たち" loading="lazy" decoding="async">
           <div class="goal-ui" aria-label="北海道旅行の目標の表示例">
             <span class="goal-kicker">本当にほしいもの</span>
             <h3>北海道旅行 <span aria-hidden="true">✈</span></h3>
@@ -151,21 +162,21 @@
         <div class="insight-stage">
           <div class="insight-cards">
             <article class="mini-insight night-insight">
-              <img class="insight-symbol" src="assets/images/icon-night.webp" width="41" height="39" alt="" loading="lazy">
+              <img class="insight-symbol" src="assets/images/icon-night.svg" width="41" height="39" alt="" loading="lazy" decoding="async">
               <h3>夜になると<br>財布のひもが<br>ゆるむみたい</h3>
               <p>買った割合</p><div class="insight-values"><span>昼 <strong>31<small>%</small></strong></span><span class="insight-arrow" aria-hidden="true">→</span><span>夜 <strong>68<small>%</small></strong></span></div>
             </article>
             <article class="mini-insight shopping-insight">
-              <img class="insight-symbol" src="assets/images/icon-shopping.webp" width="36" height="41" alt="" loading="lazy">
+              <img class="insight-symbol" src="assets/images/icon-shopping.svg" width="36" height="41" alt="" loading="lazy" decoding="async">
               <h3>「おでかけ」は<br>3,000円あたりで<br>慎重になるみたい</h3>
               <p>買った割合</p><div class="shopping-values"><span>3,000円未満 <strong>72<small>%</small></strong></span><span>3,000円以上 <strong>38<small>%</small></strong></span></div>
             </article>
             <article class="mini-insight growth-insight">
-              <img src="assets/images/gamanmaru.webp" width="209" height="151" alt="" loading="lazy">
+              <img src="assets/images/gamanmaru.webp" width="209" height="151" alt="" loading="lazy" srcset="assets/images/gamanmaru-106.webp 106w, assets/images/gamanmaru.webp 209w" sizes="90px" decoding="async">
               <h3>これまでの<br>がまん</h3><p class="gaman-count"><strong>127</strong>回</p><p>小さな選択が、<br>こんなに育ったよ。</p>
             </article>
           </div>
-          <img class="reading-character artwork" src="assets/images/reading-room.webp" width="106" height="147" alt="記録を読んでいるじきゅうちゃん" loading="lazy">
+          <img class="reading-character artwork" src="assets/images/reading-room.webp" width="106" height="147" alt="記録を読んでいるじきゅうちゃん" loading="lazy" decoding="async">
         </div>
         <p class="example-note">※ 数字と発見は、記録がたまったときの表示例です。</p>
       </section>
@@ -176,7 +187,7 @@
         <div class="discovery-stage">
           <div class="discovery-companion">
             <p class="thought-bubble" id="discovery-indicator">なにか見つけたみたい… <span aria-hidden="true">✧</span></p>
-            <img id="discovery-character" class="artwork" src="assets/images/jikyuchan-thinking.webp" width="144" height="117" alt="なにか見つけたみたいなじきゅうちゃん" loading="lazy">
+            <img id="discovery-character" class="artwork" src="assets/images/jikyuchan-thinking.webp" width="144" height="117" alt="なにか見つけたみたいなじきゅうちゃん" loading="lazy" srcset="assets/images/jikyuchan-thinking-72.webp 72w, assets/images/jikyuchan-thinking.webp 144w" sizes="(max-width: 700px) 128px, 145px" decoding="async">
           </div>
           <div class="discovery-reveal">
             <button id="discovery-button" class="reveal-button" type="button" aria-expanded="false" aria-controls="discovery-result" hidden>見つけたことを見る <span aria-hidden="true">✧</span></button>
@@ -188,14 +199,14 @@
             </div>
           </div>
         </div>
-        <img class="discovery-friends artwork" src="assets/images/discovery-friends.webp" width="217" height="57" alt="じきゅうちゃんと、そばにいるがまんまるたち" loading="lazy">
+        <img class="discovery-friends artwork" src="assets/images/discovery-friends.webp" width="217" height="57" alt="じきゅうちゃんと、そばにいるがまんまるたち" loading="lazy" decoding="async">
       </section>
     </div>
 
     <section class="final-cta" aria-labelledby="final-title">
-      <img class="final-character artwork" src="assets/images/jikyuchan-happy.webp" width="146" height="113" alt="よろこぶじきゅうちゃん" loading="lazy">
+      <img class="final-character artwork" src="assets/images/jikyuchan-happy.webp" width="146" height="113" alt="よろこぶじきゅうちゃん" loading="lazy" srcset="assets/images/jikyuchan-happy-74.webp 74w, assets/images/jikyuchan-happy.webp 146w" sizes="(max-width: 700px) 100px, 130px" decoding="async">
       <div><h2 id="final-title">次の「ほしい」から、<br>ちょっとだけ考えてみよう。</h2><p>じきゅうちゃんと一緒に。</p><div class="cta-group"><button class="store-button" type="button" data-store><svg class="apple-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#apple-symbol"/></svg>App Storeで近日公開</button><span class="platform-note">iPhone・日本語対応</span></div></div>
-      <img class="final-gaman artwork" src="assets/images/gamanmaru.webp" width="209" height="151" alt="がまんまる" loading="lazy">
+      <img class="final-gaman artwork" src="assets/images/gamanmaru.webp" width="209" height="151" alt="がまんまる" loading="lazy" srcset="assets/images/gamanmaru-106.webp 106w, assets/images/gamanmaru.webp 209w" sizes="90px" decoding="async">
     </section>
 
     <section id="faq" class="faq-section" aria-labelledby="faq-title">
@@ -216,7 +227,7 @@
         <p class="privacy-intro">THE WOOSYUME COMPANYは、「じきゅうちゃん」と公式ウェブサイトでの情報の取り扱いを、以下のとおり説明します。</p>
         <article>
           <h3>1. アプリに保存する情報</h3>
-          <p>入力した収入・時給、買いものの記録、商品情報、目標、キャラクターや着せ替えの設定は、お使いの端末内に保存します。「ほしい」のクセを見つけるための処理も端末内で行います。現在、アプリ独自のアカウント登録や、記録のiCloud同期はありません。</p>
+          <p>入力した収入・時給、買いものの記録、商品情報、目標、キャラクターや着せ替えの設定は、お使いの端末内に保存します。「ほしい」のクセを見つけるための処理も端末内で行います。<strong>あなたが入力した収入・時給や買いものの記録を、外部サーバーへ自動送信することはありません。</strong></p>
         </article>
         <article>
           <h3>2. 情報の利用目的</h3>
@@ -251,18 +262,22 @@
   </main>
 
   <footer class="site-footer">
-    <a class="brand footer-brand" href="#home"><img src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt=""><span>じきゅうちゃん</span></a>
+    <a class="brand footer-brand" href="#home"><img src="assets/images/jikyuchan-normal.webp" width="123" height="110" alt="" srcset="assets/images/jikyuchan-normal-64.webp 64w, assets/images/jikyuchan-normal.webp 123w" sizes="(max-width: 700px) 35px, 43px" decoding="async" loading="lazy"><span>じきゅうちゃん</span></a>
     <nav aria-label="フッターナビゲーション"><a href="#faq">よくある質問</a><a href="#privacy">プライバシーポリシー</a><span class="pending-link" aria-disabled="true">お問い合わせ <small>準備中</small></span></nav>
     <small>© THE WOOSYUME COMPANY</small>
   </footer>
 
   <dialog id="store-dialog" aria-labelledby="store-dialog-title" aria-describedby="store-dialog-description">
     <form method="dialog"><button class="dialog-close" aria-label="閉じる">×</button></form>
-    <img class="artwork" src="assets/images/jikyuchan-happy.webp" width="146" height="113" alt="">
+    <img class="artwork" src="assets/images/jikyuchan-happy.webp" width="146" height="113" alt="" srcset="assets/images/jikyuchan-happy-74.webp 74w, assets/images/jikyuchan-happy.webp 146w" sizes="(max-width: 700px) 100px, 130px" decoding="async" loading="lazy">
     <h2 id="store-dialog-title">App Storeで近日公開</h2>
     <p id="store-dialog-description">じきゅうちゃんは、ただいま公開の準備中です。<br>次の「ほしい」で会えるのを、楽しみにしています。</p>
     <form method="dialog"><button class="store-button">楽しみに待つ</button></form>
   </dialog>
-  <svg class="symbol-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><path id="apple-symbol" d="M15.9 4.1c.9-1 1.5-2.4 1.4-3.7-1.3.1-2.9.9-3.8 1.9-.8.9-1.5 2.3-1.3 3.6 1.4.1 2.8-.7 3.7-1.8ZM20.3 16.7c-.5 1.2-.8 1.8-1.5 2.9-1 1.5-2.4 3.3-4.1 3.3-1.5 0-1.9-1-3.9-1-2.1 0-2.5 1-4 1-1.7 0-3.1-1.6-4.1-3.1C0 15.8-.1 10.8 1.6 8.3c1.2-1.8 3.1-2.8 4.9-2.8 1.8 0 2.8 1 4.3 1 1.4 0 2.3-1 4.3-1 1.6 0 3.3.9 4.5 2.3-4 2.2-3.4 7.8.7 8.9Z"/></defs></svg>
+  <svg class="symbol-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <clipPath id="hero-text-cutout" clipPathUnits="objectBoundingBox"><path clip-rule="evenodd" d="M0 0H1V1H0Z M.60 .19H.835V.32H.60Z M.55 .335H.90V.46H.55Z M.59 .485H.85V.565H.59Z"/></clipPath>
+    <clipPath id="price-text-cutout" clipPathUnits="objectBoundingBox"><path clip-rule="evenodd" d="M0 0H1V1H0Z M.19 .15H.67V.36H.19Z"/></clipPath>
+    <path id="apple-symbol" d="M15.9 4.1c.9-1 1.5-2.4 1.4-3.7-1.3.1-2.9.9-3.8 1.9-.8.9-1.5 2.3-1.3 3.6 1.4.1 2.8-.7 3.7-1.8ZM20.3 16.7c-.5 1.2-.8 1.8-1.5 2.9-1 1.5-2.4 3.3-4.1 3.3-1.5 0-1.9-1-3.9-1-2.1 0-2.5 1-4 1-1.7 0-3.1-1.6-4.1-3.1C0 15.8-.1 10.8 1.6 8.3c1.2-1.8 3.1-2.8 4.9-2.8 1.8 0 2.8 1 4.3 1 1.4 0 2.3-1 4.3-1 1.6 0 3.3.9 4.5 2.3-4 2.2-3.4 7.8.7 8.9Z"/>
+  </defs></svg>
 </body>
 </html>

@@ -22,13 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - name: Validate local links and publishable files
-        run: python3 scripts/check-site.py
-      - name: Prepare public files only
-        run: |
-          mkdir -p _site/assets/images
-          cp index.html styles.css site.js .nojekyll _site/
-          cp assets/images/*.webp assets/images/*.png _site/assets/images/
+      - name: Validate and prepare public files only
+        run: python3 scripts/build-site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

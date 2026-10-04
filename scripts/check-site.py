@@ -5,7 +5,7 @@ from urllib.parse import unquote, urlsplit
 import re
 import sys
 
-root = Path(__file__).resolve().parents[1]
+root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 
 class Document(HTMLParser):
     def __init__(self):
@@ -30,8 +30,14 @@ class Document(HTMLParser):
         for attribute in ("src", "href"):
             if attribute in attributes:
                 self.references.append(attributes[attribute])
+        for attribute in ("srcset", "imagesrcset"):
+            self.references.extend(candidate.strip().split()[0] for candidate in attributes.get(attribute, "").split(",") if candidate.strip())
+            if attributes.get(attribute) and not attributes.get("sizes" if attribute == "srcset" else "imagesizes"):
+                self.errors.append(f"Responsive image missing sizes: {tag}")
         if tag == "img" and "alt" not in attributes:
             self.errors.append("Image missing alt attribute")
+        if tag == "img" and not all(attributes.get(key, "").isdigit() for key in ("width", "height")):
+            self.errors.append("Image missing explicit width/height")
         for attribute in ("aria-controls", "aria-labelledby", "aria-describedby"):
             self.references.extend("#" + identity for identity in attributes.get(attribute, "").split())
 
@@ -59,6 +65,10 @@ for source in ("index.html", "styles.css", "site.js"):
         for image in re.findall(r"assets/images/[\w-]+\.webp", content):
             if not (root / image).is_file():
                 errors.append(f"Missing dynamic image: {image}")
+    if source == "styles.css":
+        for identity in re.findall(r"url\(#([\w-]+)\)", content):
+            if identity not in document.ids:
+                errors.append(f"Missing SVG clip definition: {identity}")
 
 if errors:
     print("\n".join(errors), file=sys.stderr)
