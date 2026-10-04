@@ -1,0 +1,44 @@
+[
+  {
+    "columns": 1,
+    "cssWidth": 320,
+    "documentWidth": 320,
+    "horizontalOverflow": false,
+    "intentionallyHiddenArtwork": [
+      "assets/images/reading-room.webp"
+    ],
+    "scrollY": 0,
+    "unloadedDisplayedArtwork": []
+  },
+  {
+    "columns": 1,
+    "cssWidth": 390,
+    "documentWidth": 390,
+    "horizontalOverflow": false,
+    "intentionallyHiddenArtwork": [
+      "assets/images/reading-room.webp"
+    ],
+    "scrollY": 0,
+    "unloadedDisplayedArtwork": []
+  },
+  {
+    "columns": 2,
+    "cssWidth": 768,
+    "documentWidth": 768,
+    "horizontalOverflow": false,
+    "intentionallyHiddenArtwork": [
+      "assets/images/reading-room.webp"
+    ],
+    "scrollY": 0,
+    "unloadedDisplayedArtwork": []
+  },
+  {
+    "columns": 2,
+    "cssWidth": 1280,
+    "documentWidth": 1280,
+    "horizontalOverflow": false,
+    "intentionallyHiddenArtwork": [],
+    "scrollY": 0,
+    "unloadedDisplayedArtwork": []
+  }
+]
