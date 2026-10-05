@@ -13,7 +13,7 @@ if destination.is_symlink():
 if destination.exists():
     shutil.rmtree(destination)
 destination.mkdir()
-public_files = {"index.html", "styles.css", "site.js", ".nojekyll"}
+public_files = {"index.html", "styles.css", "site.js", ".nojekyll", "robots.txt", "sitemap.xml"}
 for source in ("index.html", "styles.css", "site.js"):
     public_files.update(re.findall(r"assets/images/[\w-]+\.(?:webp|png|svg)", (root / source).read_text()))
 if (root / "CNAME").is_file():

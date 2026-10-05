@@ -24,11 +24,11 @@ python3 scripts/build-site.py
 1. GitHub 저장소 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택합니다.
 2. 이 파일들을 `main` 브랜치에 커밋하고 push합니다.
 3. **Actions → Deploy static website to GitHub Pages**의 성공을 확인합니다. 필요하면 **Run workflow**로 수동 실행합니다.
-4. 기본 주소는 `https://woosyume.github.io/jikyuchan-docs/`입니다. 실제 공개 여부는 Actions의 배포 결과와 Settings → Pages에서 확인하세요.
+4. 공식 production 주소는 `https://jikyuchan.com/`입니다. `CNAME`도 이 도메인을 지정합니다. 기존 `https://woosyume.github.io/jikyuchan-docs/` 주소는 공식 도메인으로 이동합니다. 실제 공개 여부는 Actions의 배포 결과와 Settings → Pages에서 확인하세요.
 
 `.github/workflows/pages.yml`은 공개 파일만 `_site/`에 복사해 배포합니다. 원본 첨부 파일, 문서, 검증 스크립트는 배포 아티팩트에 넣지 않습니다. `pages: write`, `id-token: write`, `github-pages` 환경을 설정했습니다. 참고: [GitHub 공식 custom workflow 안내](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
-GitHub의 브랜치 직접 배포를 선호하면 **Deploy from a branch → main → /(root)**도 사용할 수 있습니다. 이 경우 root의 문서와 스크립트도 공개되므로 Actions 방식을 권장합니다. 경로는 상대 경로여서 프로젝트 하위 경로에서도 작동합니다. 별도 도메인을 사용할 때는 `index.html`의 canonical, `og:url`, `og:image`를 실제 도메인으로 변경하세요.
+GitHub의 브랜치 직접 배포를 선호하면 **Deploy from a branch → main → /(root)**도 사용할 수 있습니다. 이 경우 root의 문서와 스크립트도 공개되므로 Actions 방식을 권장합니다. 경로는 상대 경로여서 프로젝트 하위 경로에서도 작동합니다. 공식 canonical host는 `https://jikyuchan.com/`으로 고정합니다. 도메인을 변경한다면 canonical, OG/X 이미지 URL, WebSite JSON-LD, robots.txt의 sitemap URL, sitemap.xml과 검증 스크립트를 함께 변경하세요.
 
 이번 작업에서는 원격 push나 실제 공개 배포를 수행하지 않았습니다.
 
@@ -60,7 +60,7 @@ Header → Hero → 캐릭터 소개 → 6개의 이야기 카드 → Final CTA 
 
 그림 placeholder는 없습니다. 다만 독립된 고해상도 투명 PNG/SVG 원본은 제공되지 않아 배경색이 남아 있고, 확대 시 원본 보드의 해상도에 따른 선명도 한계가 있습니다. 추후 원본 자산을 같은 파일 이름으로 교체할 수 있습니다. 로고 원본이 없어 확정 캐릭터의 기존 그림과 텍스트를 헤더에 사용했습니다.
 
-개인정보처리방침은 페이지 하단의 `#privacy` 섹션에 작성했으며, Footer의 `<a href="#privacy">`로 직접 이동합니다. GitHub Pages 주소 뒤에 `#privacy`를 붙여 바로 연결할 수 있습니다. [TeacherPalette의 정책 구성](https://teacherpalette.com/#privacy)을 참고하고, 로컬 앱 코드에서 확인한端末 내 기록 처리, Google AdMob, 상품 URL 가져오기, 공유, 알림 및 리셋 동작을 반영했습니다. 참고 서비스의 개인정보 미수집/RevenueCat 사용 문구는 복사하지 않았습니다.
+개인정보처리방침은 페이지 하단의 `#privacy` 섹션에 작성했으며, Footer의 `<a href="#privacy">`로 직접 이동합니다. 공식 주소 `https://jikyuchan.com/#privacy`로 바로 연결할 수 있습니다. [TeacherPalette의 정책 구성](https://teacherpalette.com/#privacy)을 참고하고, 로컬 앱 코드에서 확인한端末 내 기록 처리, Google AdMob, 상품 URL 가져오기, 공유, 알림 및 리셋 동작을 반영했습니다. 참고 서비스의 개인정보 미수집/RevenueCat 사용 문구는 복사하지 않았습니다.
 
 App Store URL과 문의 URL은 아직 준비되지 않았습니다. App Store는 준비 안내 dialog로 연결하고, 문의는 **準備中** 텍스트로 유지했습니다. 임의의 문의 주소나 SNS 계정을 만들지 않았습니다.
 
@@ -93,10 +93,24 @@ python3 scripts/extract-assets.py '/path/to/original-attachments'
 
 ## Asset / Retina 개선 기록
 
-공유 썸네일은 제공된 `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png`를 무손실로 최적화한 `assets/images/og-jikyuchan.png`입니다(1536×1024, 약1.67MiB). Open Graph와 X의 large image 카드에 같은 절대 HTTPS URL을 설정했습니다. 공개 배포 후 공유 서비스가 이미지를 읽을 수 있으며, 서비스에 따라 미리보기 비율·크롭과 캐시가 달라질 수 있습니다. 사이트 본문의 Hero와 캐릭터는 교체하지 않았습니다.
+공유 썸네일은 제공된 `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png`를 원본을 유지하고 공개일 배지 문구만 수정한 `assets/images/og-jikyuchan-20261026.png`입니다(1536×1024, 약1.67MiB). Open Graph와 X의 large image 카드에 같은 절대 HTTPS URL을 설정했습니다. 공개 배포 후 공유 서비스가 이미지를 읽을 수 있으며, 서비스에 따라 미리보기 비율·크롭과 캐시가 달라질 수 있습니다. 사이트 본문의 Hero와 캐릭터는 교체하지 않았습니다.
 
 전체 감사와 해상도 비교표, 필요한 정확한 원본 구도·표정, 최종 판정은 [docs/retina-quality-report.md](docs/retina-quality-report.md)에 기록했습니다. 승인된 그림을 그대로 유지하며 원본 보드 crop을 무손실 WebP로 재저장했습니다. 작은 responsive 후보 8개, 달·쇼핑백 SVG, Hero와 말풍선의 HTML 문구, preload/srcset/sizes, lazy loading과 명시적 dimensions를 적용했습니다. Apple touch icon의 기존 확대는 제거했습니다.
 
 인접 앱 저장소의 원본은 현재 Master와 얼굴·표정·소품·구도가 달라 교체하지 않았습니다. Hero 등 11개 자산은 동일한 고해상도 원본이 필요하며 전체 Retina 품질이 완료된 상태는 아닙니다. 물리적 Retina 캡처는 제공 도구의 DPR=1 제한 때문에 수행하지 못했고, 실제 1440px/390px 브라우저 화면과 해상도 계산을 함께 검증했습니다.
 
 `scripts/build-site.py`는 로컬과 GitHub Actions에서 같은 공개 산출물을 생성합니다. 현재 페이지/JS가 참조하는 WebP/PNG/SVG만 포함하며 문서·원본 목록·사용하지 않는 UI crop은 배포하지 않습니다. `CNAME`이 있으면 함께 복사합니다.
+
+공개 예정일은 **2026年10月26日**입니다. 헤더·Hero·최종 CTA, FAQ, 안내 dialog, 공유 metadata와 OG 이미지 배지에 반영했습니다. 문의 창구의 準備中 문구는 그대로 유지합니다.
+
+
+## Google Search / SEO 유지보수
+
+- 현재 indexable public page는 `https://jikyuchan.com/` 한 장입니다. 개인정보처리방침(`#privacy`)과 FAQ(`#faq`)는 같은 문서의 섹션이며 sitemap에 따로 넣지 않습니다. `/privacy/`, `/support/` 페이지는 없습니다.
+- 기존 승인 Hero와 일치하는 title `じきゅうちゃん｜その「ほしい」、何時間ぶん？`를 유지합니다. 실제 브랜드 텍스트, H1, 레이아웃은 변경하지 않습니다.
+- `robots.txt`와 수동 관리 `sitemap.xml`은 `scripts/build-site.py`가 배포 root로 복사합니다. 새로운 public page를 추가할 때 해당 HTML을 빌드 공개 목록에 추가하고, 실제 production URL 기준 self-referencing canonical을 설정한 뒤 sitemap에도 추가하세요. redirect·404·noindex·개발 문서·fragment URL은 제외합니다. 정확한 수정일을 관리하기 전에는 `lastmod`를 쓰지 않습니다.
+- `python3 scripts/build-site.py`는 source와 배포 산출물의 metadata, WebSite JSON-LD, robots crawl 허용, sitemap의 실제 HTML/canonical 일치 여부를 검증합니다. 이 사이트의 공개 페이지는 indexable로 유지합니다.
+- 가격·실제 리뷰·production App Store URL은 확인되지 않았습니다. 출시 후 공개 정보로 확인하고 SoftwareApplication 적용 가능성을 다시 검토하세요. 사실이 아닌 가격·평점·리뷰·다운로드 주소를 넣지 않습니다.
+- 배포 후 Search Console에서 도메인 소유권을 확인하고 `https://jikyuchan.com/sitemap.xml`을 제출합니다. 홈페이지의 URL 검사 → 실제 URL 테스트 → 색인 생성 요청을 실행하고 Google 선택 canonical을 확인하세요.
+
+수정 전 구조, 최종 metadata, HTTP 감사, 검증 결과와 배포 후 체크리스트는 [SEO 감사 보고서](docs/seo-audit.md)에 기록했습니다.
