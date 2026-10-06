@@ -1,7 +1,7 @@
-"""Extract existing artwork from the four supplied approved reference boards.
+"""Extract existing artwork from the supplied approved reference boards and updated sticker specification.
 
 No drawing, generation, retouching, or character redesign is performed.
-Run with the directory containing the original four PNG attachments.
+Run with the directory containing the original PNG attachments and updated sticker specification.
 """
 import argparse
 from pathlib import Path
@@ -18,6 +18,7 @@ boards = {
     "character": "ChatGPT Image Oct 4, 2026, 10_32_19 AM.png",
     "ui": "ChatGPT Image Oct 4, 2026, 10_32_24 AM.png",
     "share": "ChatGPT Image Oct 4, 2026, 10_32_27 AM.png",
+    "sticker": "ChatGPT Image Oct 4, 2026, 10_47_09 PM.png",
 }
 images = {key: Image.open(args.source_dir / filename).convert("RGB") for key, filename in boards.items()}
 # Coordinates refer to the original attachment pixels. Text/name rows are excluded.
@@ -25,7 +26,7 @@ crops = {
     "hero-room": ("website", (278, 45, 652, 310)),
     "jikyuchan": ("character", (222, 95, 419, 280)),
     "okaneko": ("character", (654, 96, 862, 280)),
-    "tamepyon": ("character", (1077, 97, 1300, 280)),
+    "tamepyon": ("sticker", (819, 818, 964, 938)),
     "jikyuchan-normal": ("ui", (437, 52, 560, 162)),
     "jikyuchan-happy": ("ui", (593, 50, 739, 163)),
     "jikyuchan-thinking": ("ui", (751, 47, 895, 164)),

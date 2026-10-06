@@ -13,7 +13,7 @@ All artwork is cropped from the user's approved attachments. No replacement artw
 | `hero-room.webp` | ChatGPT Image Oct 4, 2026, 10_31_56 AM.png | `(278, 45, 652, 310)` | 374 × 265 |
 | `jikyuchan.webp` | ChatGPT Image Oct 4, 2026, 10_32_19 AM.png | `(222, 95, 419, 280)` | 197 × 185 |
 | `okaneko.webp` | ChatGPT Image Oct 4, 2026, 10_32_19 AM.png | `(654, 96, 862, 280)` | 208 × 184 |
-| `tamepyon.webp` | ChatGPT Image Oct 4, 2026, 10_32_19 AM.png | `(1077, 97, 1300, 280)` | 223 × 183 |
+| `tamepyon.webp` | ChatGPT Image Oct 4, 2026, 10_47_09 PM.png (panel 22) | `(819, 818, 964, 938)` | 145 × 120 |
 | `jikyuchan-normal.webp` | ChatGPT Image Oct 4, 2026, 10_32_24 AM.png | `(437, 52, 560, 162)` | 123 × 110 |
 | `jikyuchan-happy.webp` | ChatGPT Image Oct 4, 2026, 10_32_24 AM.png | `(593, 50, 739, 163)` | 146 × 113 |
 | `jikyuchan-thinking.webp` | ChatGPT Image Oct 4, 2026, 10_32_24 AM.png | `(751, 47, 895, 164)` | 144 × 117 |
@@ -43,3 +43,5 @@ Responsive derivatives: `hero-room-320.webp`, `jikyuchan-100.webp`, `okaneko-104
 `icon-night.svg` and `icon-shopping.svg` are manually authored simple vector icons following the Share Card Master's crescent/bag shapes and colors; no character tracing. Their old WebP crops remain available as provenance/reference, but are not served by the page. The wordmark is HTML text and the Apple symbol is inline SVG.
 
 App repository assets were inspected but rejected where face/pose/props/composition differed. See `docs/asset-audit-before.md` and `docs/retina-quality-report.md` for remaining source gaps.
+
+Tamepyon update (2026-10-06): the homepage now uses the upright-eared pink rabbit holding a carrot from panel 22 of the user-supplied sticker specification. Only the illustration area was cropped; lettering and animation-strip examples were excluded. The full-size WebP is an exact RGB source crop, and the 112×93 candidate is downsampled. No character generation, redraw, or upscaling. Existing character lineup styling is unchanged.
