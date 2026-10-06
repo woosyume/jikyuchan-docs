@@ -6,7 +6,7 @@
 
 `og-jikyuchan.png`: user-supplied `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png` from `/Users/woosyume/Desktop/jikyuchan-images/`. Original1536×1024 composition and decoded pixels retained; PNG compressed losslessly without cropping, redrawing, or upscaling. Used only by Open Graph / X metadata, not as page artwork.
 
-All artwork is cropped from the user's approved attachments. No replacement artwork was generated. Original source boards are not bundled. Matching independent high-resolution/transparent exports were not found; cream backgrounds are preserved. Full-size WebP files are lossless and pixel-identical to the source crops. Smaller responsive candidates are downsampled only. HTML supplies section copy, Hero values, and current character names.
+All artwork is cropped from the user's approved attachments. Original character crops are preserved. The background-only Tamepyon edit is documented below. Original source boards are not bundled. Matching independent high-resolution/transparent exports were not found; cream backgrounds are preserved. Full-size WebP files are lossless and pixel-identical to the source crops. Smaller responsive candidates are downsampled only. HTML supplies section copy, Hero values, and current character names.
 
 | Asset | Source attachment | Crop (left, top, right, bottom) | Size |
 | --- | --- | --- | --- |
@@ -45,3 +45,10 @@ Responsive derivatives: `hero-room-320.webp`, `jikyuchan-100.webp`, `okaneko-104
 App repository assets were inspected but rejected where face/pose/props/composition differed. See `docs/asset-audit-before.md` and `docs/retina-quality-report.md` for remaining source gaps.
 
 Tamepyon update (2026-10-06): the homepage now uses the upright-eared pink rabbit holding a carrot from panel 22 of the user-supplied sticker specification. Only the illustration area was cropped; lettering and animation-strip examples were excluded. The full-size WebP is an exact RGB source crop, and the 112×93 candidate is downsampled. No character generation, redraw, or upscaling. Existing character lineup styling is unchanged.
+
+
+## Tamepyon background adjustment (2026-10-06)
+
+Active homepage assets: `tamepyon-light.webp` (145×120) and `tamepyon-light-112.webp` (112×93). The built-in image editing tool lightened the panel-22 crop's yellow background, sparkle decorations and green ground patch to match the other character portraits' pale cream backgrounds. The original `tamepyon.webp` and its derivative remain available as provenance. Layout, displayed image dimensions, alt text and character copy are unchanged. Full prompt and tool details: [background edit record](../../docs/tamepyon-background-edit.md).
+
+These two edited assets are maintained separately from `scripts/extract-assets.py` so rerunning original-source extraction does not overwrite the background adjustment.
