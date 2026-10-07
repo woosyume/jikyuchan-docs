@@ -52,3 +52,19 @@ Tamepyon update (2026-10-06): the homepage now uses the upright-eared pink rabbi
 Active homepage assets: `tamepyon-light.webp` (145×120) and `tamepyon-light-112.webp` (112×93). The built-in image editing tool lightened the panel-22 crop's yellow background, sparkle decorations and green ground patch to match the other character portraits' pale cream backgrounds. The original `tamepyon.webp` and its derivative remain available as provenance. Layout, displayed image dimensions, alt text and character copy are unchanged. Full prompt and tool details: [background edit record](../../docs/tamepyon-background-edit.md).
 
 These two edited assets are maintained separately from `scripts/extract-assets.py` so rerunning original-source extraction does not overwrite the background adjustment.
+
+## Release 1.0 authentic app screenshots (2026-10-07)
+
+`release-price-history.webp` and `release-visual-summary.webp` are lossless rectangular excerpts of actual Simulator screenshots from the adjacent, read-only app repository. They render QA fixture records through real app components; they are not design-board mockups or reconstructed HTML screens. Exact source paths, sizes and crop coordinates are in [screenshot-sources.json](../../docs/release-1/screenshot-sources.json). No repainting, text replacement, invented values or upscaling. Visible captions identify app excerpts and sample records.
+
+The two homepage discovery messages are exact title/subtitle pairs from `Jikyuchan/Core/PriceDecisionInsights.swift` (lines 133 and 183 at audit time). They are presented as website speech cards, not screen replicas.
+
+## Product-story redesign — active assets (2026-10-07)
+
+This section describes the current page; the earlier Release 1.0 notes above document the preceding layout. The old illustrated Hero and HTML insight letters are no longer served. Existing character portraits, favicon and social metadata remain in use.
+
+The five approved high-resolution exports are `web_deposit.png`, `web_price_watch.png`, `web_choice.png`, `web_discovery.png`, and `web_goal.png` in the user's `Desktop/jikyuchan-images/homepages` folder. Full-size WebP and 800/1200px derivatives retain alpha, with quality 90 encoding. Desktop originals are untouched. Mobile choice excerpts crop the same approved illustration into three scenes; they do not redraw characters or change expressions.
+
+The current authentic UI excerpts use the attached `11_32_21`, `11_32_49`, `11_32_46`, and `11_32_36` Simulator captures, plus the app repository's actual consultation and summary captures. Decorative phones and charts within the five illustrations are storytelling artwork, never identified as screenshots. All real UI excerpts preserve the original crop pixels losslessly, and visible captions identify the actual app and example records. No UI reconstruction, fake data, text replacement, synthetic app chrome or AI generation was added. There is no suitable actual Goal capture in the audited sources; its section uses `web_goal` artwork without a fabricated screen.
+
+Exact filenames, dimensions, crop coordinates, original SHA-256 hashes and encoding settings: [current asset manifest](../../docs/product-redesign/asset-sources.json). Reproduction: `scripts/prepare-product-assets.py`. Byte-for-byte screenshot and original-file checks: [preservation QA](../../docs/product-redesign/preservation-qa.json).

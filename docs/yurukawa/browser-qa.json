@@ -1,0 +1,518 @@
+[
+  {
+    "width": 320,
+    "scrollWidth": 320,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "jikyuchan.webp",
+        "width": 90.65625,
+        "height": 100
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 90.671875,
+        "height": 100
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 90.65625,
+        "height": 100
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "yuru-hero-wide.webp",
+        "current": "yuru-hero-mobile-620.webp"
+      },
+      {
+        "src": "yuru-deposit.webp",
+        "current": "yuru-deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "yuru-journal.webp",
+        "current": "yuru-journal-700.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan-100.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko-104.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light-112.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 223.046875,
+        "height": 48
+      },
+      {
+        "width": 223.046875,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "jikyuchan.webp",
+        "width": 114,
+        "height": 100
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 114,
+        "height": 100
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 114,
+        "height": 100
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "yuru-hero-wide.webp",
+        "current": "yuru-hero-mobile-620.webp"
+      },
+      {
+        "src": "yuru-deposit.webp",
+        "current": "yuru-deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "yuru-journal.webp",
+        "current": "yuru-journal-700.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan-100.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko-104.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light-112.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 223.046875,
+        "height": 48
+      },
+      {
+        "width": 223.046875,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "jikyuchan.webp",
+        "width": 194.65625,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 194.671875,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 194.671875,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "yuru-hero-wide.webp",
+        "current": "yuru-hero-wide-800.webp"
+      },
+      {
+        "src": "yuru-deposit.webp",
+        "current": "yuru-deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "yuru-journal.webp",
+        "current": "yuru-journal-700.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 247.84375,
+        "height": 48
+      },
+      {
+        "width": 247.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "jikyuchan.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 208,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "yuru-hero-wide.webp",
+        "current": "yuru-hero-wide.webp"
+      },
+      {
+        "src": "yuru-deposit.webp",
+        "current": "yuru-deposit.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice.webp"
+      },
+      {
+        "src": "yuru-journal.webp",
+        "current": "yuru-journal-1000.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 247.84375,
+        "height": 48
+      },
+      {
+        "width": 247.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "jikyuchan.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 208,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "yuru-hero-wide.webp",
+        "current": "yuru-hero-wide.webp"
+      },
+      {
+        "src": "yuru-deposit.webp",
+        "current": "yuru-deposit.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice.webp"
+      },
+      {
+        "src": "yuru-journal.webp",
+        "current": "yuru-journal-1000.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-1200.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 247.84375,
+        "height": 48
+      },
+      {
+        "width": 247.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "javascriptDisabled": true
+  },
+  {
+    "keyboardSkipLink": true
+  }
+]

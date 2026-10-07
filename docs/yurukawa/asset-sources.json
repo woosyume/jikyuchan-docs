@@ -1,0 +1,78 @@
+[
+  {
+    "asset": "yuru-hero-wide.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/ChatGPT Image Oct 4, 2026, 11_49_30 AM.png",
+    "source_sha256": "b250ad534d08569f64d402de415d0e3cc2122bcc65469cd9424cf7ac19c3d849",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "crop": [
+      0,
+      0,
+      1536,
+      720
+    ],
+    "dimensions": [
+      1536,
+      720
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ]
+  },
+  {
+    "asset": "yuru-hero-mobile.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/test.png",
+    "source_sha256": "7b54f9a1c49f01751f1b87d90df7ee1f098bf6003a99dffbe55458a89f344966",
+    "original_dimensions": [
+      853,
+      1844
+    ],
+    "crop": null,
+    "dimensions": [
+      853,
+      1844
+    ],
+    "responsive_widths": [
+      620
+    ]
+  },
+  {
+    "asset": "yuru-deposit.webp",
+    "source": "/var/folders/3f/kqxq2w6d3vv3t5s4xbjkrpx00000gn/T/codex-clipboard-c8d9deb8-e1be-41bb-b308-84695399bede.png",
+    "source_sha256": "ff9dadbe7944fc4bea08645acac5a0f13c9cbdf780719c7695da8fe1a6d7dd08",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": null,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ]
+  },
+  {
+    "asset": "yuru-journal.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/character-sample2.png",
+    "source_sha256": "30029cae7bf25454eb7f28295079eab587418d11e33c7d96d0ffddbeff35e0a1",
+    "original_dimensions": [
+      1312,
+      1199
+    ],
+    "crop": null,
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "responsive_widths": [
+      700,
+      1000
+    ]
+  }
+]

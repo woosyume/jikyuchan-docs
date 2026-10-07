@@ -1,0 +1,311 @@
+[
+  {
+    "asset": "web_deposit.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_deposit.png",
+    "source_sha256": "ffcb0f062a58921a8f2e2fca830562b4262369b5b5bb904d390e27f9dad18dfd",
+    "original_dimensions": [
+      1774,
+      887
+    ],
+    "crop": null,
+    "dimensions": [
+      1774,
+      887
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "web_price_watch.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_price_watch.png",
+    "source_sha256": "69d2fe286321853838f42882faf2f3f62fa6c951790b97e922420efd9a0b2d20",
+    "original_dimensions": [
+      1672,
+      940
+    ],
+    "crop": null,
+    "dimensions": [
+      1672,
+      940
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "web_choice.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_choice.png",
+    "source_sha256": "667d1c17877dbef16c6d6a801ce3c614cdb9a6e49f734b9f79ea3ede23116730",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": null,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "web_discovery.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_discovery.png",
+    "source_sha256": "1a1607d01070832f4bcaed9086719cedaf7d272c39785db2d03d7ee0b9ec963a",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": null,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "web_goal.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_goal.png",
+    "source_sha256": "0ce7e1310d3228daa766e0c611081f27e2ca19e70b542571d7df055001417466",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": null,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "responsive_widths": [
+      800,
+      1200
+    ],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "release-home.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/ChatGPT Image Oct 7, 2026, 11_32_21 PM.png",
+    "source_sha256": "a00ca442d618b7b3acaa2a476210615103dc70dd28f9d5bb8fe519827ecd542d",
+    "original_dimensions": [
+      1046,
+      2010
+    ],
+    "crop": [
+      175,
+      211,
+      872,
+      1727
+    ],
+    "dimensions": [
+      697,
+      1516
+    ],
+    "responsive_widths": [],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-queue.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/ChatGPT Image Oct 7, 2026, 11_32_49 PM.png",
+    "source_sha256": "4a62fb95899982340d52891222cf35c6e162186c48e7ac7feeca12d77306d53c",
+    "original_dimensions": [
+      1046,
+      2010
+    ],
+    "crop": [
+      202,
+      451,
+      845,
+      1710
+    ],
+    "dimensions": [
+      643,
+      1259
+    ],
+    "responsive_widths": [],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-price-current.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/ChatGPT Image Oct 7, 2026, 11_32_46 PM.png",
+    "source_sha256": "03d4813f411a61207b1fe595bfec17c420b794f4e5c88008e92480daf178af73",
+    "original_dimensions": [
+      1046,
+      2010
+    ],
+    "crop": [
+      202,
+      425,
+      845,
+      1348
+    ],
+    "dimensions": [
+      643,
+      923
+    ],
+    "responsive_widths": [],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-insight-top3.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/ChatGPT Image Oct 7, 2026, 11_32_36 PM.png",
+    "source_sha256": "c6bf93857cde167ea39f7464c52aa1e7047879fd9400845d2d3eb3176ee0b64e",
+    "original_dimensions": [
+      1046,
+      2010
+    ],
+    "crop": [
+      261,
+      449,
+      787,
+      1188
+    ],
+    "dimensions": [
+      526,
+      739
+    ],
+    "responsive_widths": [],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-consultation.webp",
+    "source": "/Users/woosyume/Documents/apps/jikyuchan/QA/AdditionalUXCorrection/new-consultation-3000-at-1500-is-two-hours.png",
+    "source_sha256": "33d58ad1ad80ebff8c57bd0970ebf93b450617f42923ecfd6bb1da9463b5f9d1",
+    "original_dimensions": [
+      1206,
+      2622
+    ],
+    "crop": [
+      60,
+      760,
+      1146,
+      2130
+    ],
+    "dimensions": [
+      1086,
+      1370
+    ],
+    "responsive_widths": [],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-summary-overview.webp",
+    "source": "/Users/woosyume/Documents/apps/jikyuchan/QA/StatusDrillDown/summary-seven-normal.png",
+    "source_sha256": "1ccf030c76a0d6ace55fe93645edde62348b179883b8cbba944d66623c161419",
+    "original_dimensions": [
+      1206,
+      2622
+    ],
+    "crop": [
+      48,
+      348,
+      1158,
+      1358
+    ],
+    "dimensions": [
+      1110,
+      1010
+    ],
+    "responsive_widths": [
+      600
+    ],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-summary-timeline.webp",
+    "source": "/Users/woosyume/Documents/apps/jikyuchan/QA/StatusDrillDown/summary-seven-normal.png",
+    "source_sha256": "1ccf030c76a0d6ace55fe93645edde62348b179883b8cbba944d66623c161419",
+    "original_dimensions": [
+      1206,
+      2622
+    ],
+    "crop": [
+      48,
+      1363,
+      1158,
+      2024
+    ],
+    "dimensions": [
+      1110,
+      661
+    ],
+    "responsive_widths": [
+      600
+    ],
+    "encoding": "lossless WebP"
+  },
+  {
+    "asset": "release-choice-pass.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_choice.png",
+    "source_sha256": "667d1c17877dbef16c6d6a801ce3c614cdb9a6e49f734b9f79ea3ede23116730",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": [
+      0,
+      170,
+      463,
+      825
+    ],
+    "dimensions": [
+      463,
+      655
+    ],
+    "responsive_widths": [],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "release-choice-keep.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_choice.png",
+    "source_sha256": "667d1c17877dbef16c6d6a801ce3c614cdb9a6e49f734b9f79ea3ede23116730",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": [
+      460,
+      160,
+      1100,
+      824
+    ],
+    "dimensions": [
+      640,
+      664
+    ],
+    "responsive_widths": [],
+    "encoding": "WebP quality 90 with alpha"
+  },
+  {
+    "asset": "release-choice-buy.webp",
+    "source": "/Users/woosyume/Desktop/jikyuchan-images/homepages/web_choice.png",
+    "source_sha256": "667d1c17877dbef16c6d6a801ce3c614cdb9a6e49f734b9f79ea3ede23116730",
+    "original_dimensions": [
+      1672,
+      941
+    ],
+    "crop": [
+      1117,
+      160,
+      1672,
+      824
+    ],
+    "dimensions": [
+      555,
+      664
+    ],
+    "responsive_widths": [],
+    "encoding": "WebP quality 90 with alpha"
+  }
+]

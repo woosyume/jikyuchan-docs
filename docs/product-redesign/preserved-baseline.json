@@ -1,0 +1,9 @@
+{
+  ".github/workflows/pages.yml": "890cc34673fc46e180434d735117293dceaa330e24a1488cbd038f94fd98090d",
+  "CNAME": "cf34f741e85575debcb1cddc27714cbe7d6280137fbe56b0f11ec0c852ac7f6a",
+  "robots.txt": "a9b094ebb15683668b072be775bdb311baccbdde8589241809c6a724e73a54b9",
+  "sitemap.xml": "ff2240ca9a1b7fb2aed1b4d57e602aebff6414276d09b11ca6fadac0815d6351",
+  "scripts/build-site.py": "2a9034c24c89fa899b1c7d67bdd21423f102c4e18ea839615b8ed8eaccd76ea7",
+  "faq_and_legal_suffix_sha256": "9e62a1728993823b32e3b3d0eb55d5a35159bf5e760d9ba09a07024196ea6653",
+  "seo_head_sha256": "7256d0494dace4841ce5bc8c6b3afa60ff6cad826a4526737097ffe50c663863"
+}

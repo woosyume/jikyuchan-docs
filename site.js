@@ -39,24 +39,3 @@ storeDialog.addEventListener("click", event => {
   const bounds = storeDialog.getBoundingClientRect();
   if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) storeDialog.close();
 });
-
-const discoveryButton = document.querySelector("#discovery-button");
-const discoveryResult = document.querySelector("#discovery-result");
-const discoveryIndicator = document.querySelector("#discovery-indicator");
-const discoveryCharacter = document.querySelector("#discovery-character");
-discoveryButton.hidden = false;
-discoveryResult.hidden = true;
-discoveryButton.addEventListener("click", () => {
-  const open = discoveryButton.getAttribute("aria-expanded") !== "true";
-  discoveryButton.setAttribute("aria-expanded", String(open));
-  discoveryResult.hidden = !open;
-  discoveryButton.textContent = open ? "発見をとじる" : "見つけたことを見る ✧";
-  discoveryIndicator.textContent = open ? "新しいことを見つけたよ！ ✧" : "なにか見つけたみたい… ✧";
-  discoveryCharacter.srcset = open
-    ? "assets/images/jikyuchan-happy-74.webp 74w, assets/images/jikyuchan-happy.webp 146w"
-    : "assets/images/jikyuchan-thinking-72.webp 72w, assets/images/jikyuchan-thinking.webp 144w";
-  discoveryCharacter.src = open ? "assets/images/jikyuchan-happy.webp" : "assets/images/jikyuchan-thinking.webp";
-  discoveryCharacter.alt = open ? "新しい発見をよろこぶじきゅうちゃん" : "なにか見つけたみたいなじきゅうちゃん";
-  if (open) discoveryResult.classList.add("reveal-animation");
-  else discoveryResult.classList.remove("reveal-animation");
-});

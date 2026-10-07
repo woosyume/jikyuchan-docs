@@ -1,0 +1,693 @@
+[
+  {
+    "width": 320,
+    "scrollWidth": 320,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "release-consultation.webp",
+        "width": 288,
+        "height": 362.78125
+      },
+      {
+        "src": "release-home.webp",
+        "width": 288,
+        "height": 626.40625
+      },
+      {
+        "src": "release-queue.webp",
+        "width": 288,
+        "height": 563.90625
+      },
+      {
+        "src": "release-price-current.webp",
+        "width": 288,
+        "height": 413.40625
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "width": 288,
+        "height": 262.25
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "width": 288,
+        "height": 172.15625
+      },
+      {
+        "src": "release-insight-top3.webp",
+        "width": 288,
+        "height": 404.609375
+      },
+      {
+        "src": "jikyuchan.webp",
+        "width": 90.65625,
+        "height": 100
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 90.671875,
+        "height": 100
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 90.65625,
+        "height": 100
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "web_deposit.webp",
+        "current": "web_deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "current": "release-summary-overview-600.webp"
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "current": "release-summary-timeline-600.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan-100.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko-104.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light-112.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 219.046875,
+        "height": 48
+      },
+      {
+        "width": 219.046875,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "release-consultation.webp",
+        "width": 330,
+        "height": 415.765625
+      },
+      {
+        "src": "release-home.webp",
+        "width": 330,
+        "height": 717.75
+      },
+      {
+        "src": "release-queue.webp",
+        "width": 330,
+        "height": 646.140625
+      },
+      {
+        "src": "release-price-current.webp",
+        "width": 358,
+        "height": 513.890625
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "width": 358,
+        "height": 325.953125
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "width": 358,
+        "height": 213.8125
+      },
+      {
+        "src": "release-insight-top3.webp",
+        "width": 358,
+        "height": 502.96875
+      },
+      {
+        "src": "jikyuchan.webp",
+        "width": 114,
+        "height": 100
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 114,
+        "height": 100
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 114,
+        "height": 100
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "web_deposit.webp",
+        "current": "web_deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "current": "release-summary-overview-600.webp"
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "current": "release-summary-timeline-600.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan-100.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko-104.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light-112.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 219.046875,
+        "height": 48
+      },
+      {
+        "width": 219.046875,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "release-home.webp",
+        "width": 200,
+        "height": 418.546875
+      },
+      {
+        "src": "release-consultation.webp",
+        "width": 235,
+        "height": 295.921875
+      },
+      {
+        "src": "release-queue.webp",
+        "width": 265,
+        "height": 518.859375
+      },
+      {
+        "src": "release-price-current.webp",
+        "width": 337.90625,
+        "height": 485.046875
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "width": 353.84375,
+        "height": 322.171875
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "width": 320.140625,
+        "height": 191.28125
+      },
+      {
+        "src": "release-insight-top3.webp",
+        "width": 293.55804443359375,
+        "height": 402.9072265625
+      },
+      {
+        "src": "jikyuchan.webp",
+        "width": 194.65625,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 194.671875,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 194.671875,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "web_deposit.webp",
+        "current": "web_deposit-800.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-800.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice-800.webp"
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "current": "release-summary-overview-600.webp"
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "current": "release-summary-timeline-600.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal-800.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 243.84375,
+        "height": 48
+      },
+      {
+        "width": 243.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "release-home.webp",
+        "width": 270,
+        "height": 570.796875
+      },
+      {
+        "src": "release-consultation.webp",
+        "width": 310,
+        "height": 390.53125
+      },
+      {
+        "src": "release-queue.webp",
+        "width": 330,
+        "height": 646.140625
+      },
+      {
+        "src": "release-price-current.webp",
+        "width": 510.71875,
+        "height": 733.109375
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "width": 613.1875,
+        "height": 558.125
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "width": 554.796875,
+        "height": 330.90625
+      },
+      {
+        "src": "release-insight-top3.webp",
+        "width": 398.4005126953125,
+        "height": 546.8115234375
+      },
+      {
+        "src": "jikyuchan.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 208,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "web_deposit.webp",
+        "current": "web_deposit-1200.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-1200.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice.webp"
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "current": "release-summary-overview.webp"
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "current": "release-summary-timeline-600.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 243.84375,
+        "height": 48
+      },
+      {
+        "width": 243.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "brokenImages": [],
+    "overflows": [],
+    "screens": [
+      {
+        "src": "release-home.webp",
+        "width": 270,
+        "height": 570.796875
+      },
+      {
+        "src": "release-consultation.webp",
+        "width": 310,
+        "height": 390.53125
+      },
+      {
+        "src": "release-queue.webp",
+        "width": 330,
+        "height": 646.140625
+      },
+      {
+        "src": "release-price-current.webp",
+        "width": 520.796875,
+        "height": 747.578125
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "width": 625.796875,
+        "height": 569.59375
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "width": 566.203125,
+        "height": 337.6875
+      },
+      {
+        "src": "release-insight-top3.webp",
+        "width": 398.4005126953125,
+        "height": 546.8115234375
+      },
+      {
+        "src": "jikyuchan.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "okaneko.webp",
+        "width": 208,
+        "height": 165
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "width": 208,
+        "height": 165
+      }
+    ],
+    "responsiveImages": [
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "web_deposit.webp",
+        "current": "web_deposit-1200.webp"
+      },
+      {
+        "src": "web_price_watch.webp",
+        "current": "web_price_watch-1200.webp"
+      },
+      {
+        "src": "web_choice.webp",
+        "current": "web_choice.webp"
+      },
+      {
+        "src": "release-summary-overview.webp",
+        "current": "release-summary-overview.webp"
+      },
+      {
+        "src": "release-summary-timeline.webp",
+        "current": "release-summary-timeline-600.webp"
+      },
+      {
+        "src": "web_discovery.webp",
+        "current": "web_discovery-800.webp"
+      },
+      {
+        "src": "web_goal.webp",
+        "current": "web_goal.webp"
+      },
+      {
+        "src": "jikyuchan.webp",
+        "current": "jikyuchan.webp"
+      },
+      {
+        "src": "okaneko.webp",
+        "current": "okaneko.webp"
+      },
+      {
+        "src": "tamepyon-light.webp",
+        "current": "tamepyon-light.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      },
+      {
+        "src": "gamanmaru.webp",
+        "current": "gamanmaru-106.webp"
+      },
+      {
+        "src": "jikyuchan-normal.webp",
+        "current": "jikyuchan-normal-64.webp"
+      },
+      {
+        "src": "jikyuchan-happy.webp",
+        "current": "jikyuchan-happy.webp"
+      }
+    ],
+    "cta": [
+      {
+        "width": 243.84375,
+        "height": 48
+      },
+      {
+        "width": 243.84375,
+        "height": 48
+      }
+    ],
+    "canonical": "https://jikyuchan.com/",
+    "captureScrollY": 0,
+    "reducedMotion": {
+      "scroll": "auto",
+      "animated": 0
+    },
+    "errors": []
+  },
+  {
+    "javascriptDisabled": true
+  },
+  {
+    "keyboardSkipLink": true
+  }
+]

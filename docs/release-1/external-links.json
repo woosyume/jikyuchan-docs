@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://policies.google.com/privacy?hl=ja",
+    "status": 200,
+    "finalURL": "https://policies.google.com/privacy?hl=ja"
+  },
+  {
+    "url": "https://developers.google.com/admob/ios/privacy/data-disclosure?hl=ja",
+    "status": 200,
+    "finalURL": "https://developers.google.com/admob/ios/privacy/data-disclosure?hl=ja"
+  },
+  {
+    "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "status": 200,
+    "finalURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+  }
+]

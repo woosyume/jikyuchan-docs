@@ -166,6 +166,10 @@ for source in ("index.html", "styles.css", "site.js"):
     for obsolete_name in ("うさじまる", "うさぴまる"):
         if obsolete_name in content:
             errors.append(f"Obsolete character name in {source}")
+    if source == "index.html":
+        for obsolete_status in ("後で考える", "考え中"):
+            if obsolete_status in content:
+                errors.append(f"Obsolete status wording in {source}: {obsolete_status}")
     if source == "site.js":
         for image in re.findall(r"assets/images/[\w-]+\.webp", content):
             if not (root / image).is_file():

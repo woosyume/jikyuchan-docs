@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "original unchanged: ChatGPT Image Oct 4, 2026, 11_49_30 AM.png": true,
+    "original unchanged: test.png": true,
+    "original unchanged: codex-clipboard-c8d9deb8-e1be-41bb-b308-84695399bede.png": true,
+    "original unchanged: character-sample2.png": true,
+    "capture excluded from public build: release-home": true,
+    "capture excluded from public build: release-consultation": true,
+    "capture excluded from public build: release-queue": true,
+    "capture excluded from public build: release-price-current": true,
+    "capture excluded from public build: release-price-history": true,
+    "capture excluded from public build: release-visual-summary": true,
+    "capture excluded from public build: release-summary-overview": true,
+    "capture excluded from public build: release-summary-timeline": true,
+    "capture excluded from public build: release-insight-top3": true,
+    "no authentic UI caption": true,
+    "FAQ legal footer unchanged": true,
+    "SEO unchanged": true
+  }
+}

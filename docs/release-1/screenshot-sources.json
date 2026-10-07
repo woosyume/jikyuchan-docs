@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "release-price-history.webp",
+    "source": "/Users/woosyume/Documents/apps/jikyuchan/QA/PriceWaitingDecision/screenshots/manual-and-automatic-price-graph.png",
+    "crop": [
+      48,
+      1930,
+      1158,
+      2490
+    ],
+    "size": [
+      1110,
+      560
+    ],
+    "data": "Simulator QA fixture rendered by actual app UI; no text or pixel repainting"
+  },
+  {
+    "asset": "release-visual-summary.webp",
+    "source": "/Users/woosyume/Documents/apps/jikyuchan/QA/StatusDrillDown/summary-seven-normal.png",
+    "crop": [
+      48,
+      348,
+      1158,
+      2024
+    ],
+    "size": [
+      1110,
+      1676
+    ],
+    "data": "Simulator QA fixture rendered by actual app UI; no text or pixel repainting"
+  }
+]
