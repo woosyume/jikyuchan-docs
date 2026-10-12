@@ -7,11 +7,20 @@ const mobile = window.matchMedia("(max-width: 700px)");
 
 function closeMenu() {
   menuButton.setAttribute("aria-expanded", "false");
-  navigation.hidden = mobile.matches;
+  navigation.setAttribute("aria-hidden", String(mobile.matches));
+  if (mobile.matches) {
+    navigation.inert = true;
+    navigation.classList.remove("is-open");
+  } else {
+    navigation.inert = false;
+    navigation.hidden = false;
+    navigation.classList.remove("is-open");
+  }
 }
 
 function syncMenu() {
   menuButton.hidden = !mobile.matches;
+  navigation.hidden = false;
   closeMenu();
 }
 
@@ -20,11 +29,25 @@ mobile.addEventListener("change", syncMenu);
 menuButton.addEventListener("click", () => {
   const open = menuButton.getAttribute("aria-expanded") !== "true";
   menuButton.setAttribute("aria-expanded", String(open));
-  navigation.hidden = !open;
+  if (open) {
+    navigation.hidden = false;
+    navigation.inert = false;
+    navigation.setAttribute("aria-hidden", "false");
+    requestAnimationFrame(() => navigation.classList.add("is-open"));
+  } else {
+    navigation.inert = true;
+    navigation.setAttribute("aria-hidden", "true");
+    navigation.classList.remove("is-open");
+  }
 });
 navigation.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
+navigation.addEventListener("transitionend", event => {
+  if (event.target === navigation && event.propertyName === "max-height" && mobile.matches && menuButton.getAttribute("aria-expanded") !== "true") {
+    navigation.hidden = true;
+  }
+});
 document.addEventListener("keydown", event => {
-  if (event.key === "Escape" && mobile.matches && !navigation.hidden) {
+  if (event.key === "Escape" && mobile.matches && menuButton.getAttribute("aria-expanded") === "true") {
     closeMenu();
     menuButton.focus();
   }

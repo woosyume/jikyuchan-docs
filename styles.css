@@ -187,7 +187,9 @@ h3 { font-weight: 700; }
   .brand img { width: 35px; }
   .brand span { font-size: 18px; }
   .menu-toggle { order: 2; }
-  .header-inner nav { order: 3; flex-basis: 100%; margin: 0; justify-content: space-between; gap: 12px; padding-top: 8px; }
+  .header-inner nav { order: 3; flex-basis: 100%; margin: 0; justify-content: space-between; gap: 12px; padding-top: 8px; max-height: 0; opacity: 0; transform: translateY(-10px); overflow: hidden; transition: max-height 280ms cubic-bezier(.22,.8,.25,1), opacity 220ms ease, transform 280ms cubic-bezier(.22,.8,.25,1); }
+  .header-inner nav.is-open { max-height: 120px; opacity: 1; transform: translateY(0); }
+  .header-inner nav a { min-height: 0; }
   .header-inner nav a { font-size: 11px; padding-block: 12px; }
   h2 { font-size: clamp(24px, 6.7vw, 30px); letter-spacing: 0; }
   .eyebrow { font-size: 12px; letter-spacing: .04em; }
@@ -252,6 +254,10 @@ h3 { font-weight: 700; }
   .site-footer > small { display: block; margin-top: 15px; }
   dialog { padding: 28px 20px; }
   dialog h2 { font-size: 19px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-inner nav { transition-duration: 0.01ms; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
