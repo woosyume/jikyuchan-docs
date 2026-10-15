@@ -1,0 +1,67 @@
+[
+  {
+    "engine": "chromium",
+    "width": 320,
+    "columns": 2,
+    "overflow": false,
+    "animation_changes_frames": true,
+    "replay_and_stop": true,
+    "reduced_motion": true,
+    "keyboard": true,
+    "app_cta": true,
+    "faq": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "columns": 2,
+    "overflow": false,
+    "animation_changes_frames": true,
+    "replay_and_stop": true,
+    "reduced_motion": true,
+    "keyboard": true,
+    "app_cta": true,
+    "faq": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "columns": 4,
+    "overflow": false,
+    "animation_changes_frames": true,
+    "replay_and_stop": true,
+    "reduced_motion": true,
+    "keyboard": true,
+    "app_cta": true,
+    "faq": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1280,
+    "columns": 4,
+    "overflow": false,
+    "animation_changes_frames": true,
+    "replay_and_stop": true,
+    "reduced_motion": true,
+    "keyboard": true,
+    "app_cta": true,
+    "faq": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "columns": 4,
+    "overflow": false,
+    "animation_changes_frames": true,
+    "replay_and_stop": true,
+    "reduced_motion": true,
+    "keyboard": true,
+    "app_cta": true,
+    "faq": true,
+    "errors": []
+  }
+]

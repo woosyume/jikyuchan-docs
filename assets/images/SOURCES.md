@@ -1,5 +1,9 @@
 # Supplied artwork provenance
 
+## Official LINE stickers (2026-10-15)
+
+`line-sticker-{morning,okaneko,tamepyon,friends}.webp` and their `-animated.webp` variants come directly from the static PNG / animated APNG URLs exposed by [LINE STORE product 37139155](https://line.me/S/sticker/37139155). Selected sticker IDs: `911235737`, `911235753`, `911235754`, `911235760`. They match the four attached designs. No image generation, redraw, cropping, resizing, wording change, or expression change. Static versions are official static previews, explicitly identified as such in the UI. Animated versions preserve all displayed RGBA frame content, timings, dimensions (370×300) and original finite playback. Lossless WebP conversion only; original remote files remain untouched. Detailed source URLs, original hashes, sizes and frame durations: [asset manifest](../../docs/line-stickers/assets.json).
+
 ## Social sharing image
 
 `og-jikyuchan-20261026.png` is derived from the original below. Only the pink release badge lettering was changed to `2026年10月26日 / 公開予定` by local font rendering with `scripts/render-share-release.py` (LogoTypeGothic). Characters, room, composition, and all pixels outside the badge text region are unchanged. No AI image generation. This dated file is the active OG / X image.

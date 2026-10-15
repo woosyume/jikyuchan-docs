@@ -62,3 +62,54 @@ storeDialog.addEventListener("click", event => {
   const bounds = storeDialog.getBoundingClientRect();
   if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) storeDialog.close();
 });
+
+// Fetch animation only on request; the four lazy stills also work without JS.
+const stickerMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const stickerNote = document.querySelector("#sticker-preview-note");
+const stickerPlayers = [...document.querySelectorAll(".sticker-play")].map(button => {
+  const image = button.closest("figure").querySelector("img");
+  const still = image.getAttribute("src");
+  const label = button.getAttribute("aria-label");
+  let timer;
+
+  function stop() {
+    clearTimeout(timer);
+    image.onload = null;
+    image.onerror = null;
+    if (image.getAttribute("src") !== still) image.src = still;
+    button.setAttribute("aria-pressed", "false");
+    button.setAttribute("aria-label", label);
+    button.innerHTML = '動きを見る <span aria-hidden="true">▷</span>';
+  }
+
+  button.addEventListener("click", () => {
+    if (stickerMotion.matches || button.getAttribute("aria-pressed") === "true") {
+      stop();
+      return;
+    }
+    button.setAttribute("aria-pressed", "true");
+    button.setAttribute("aria-label", label.replace("動きを見る", "動きを止める"));
+    button.innerHTML = '動きを止める <span aria-hidden="true">Ⅱ</span>';
+    image.onload = () => { timer = setTimeout(stop, Number(button.dataset.duration)); };
+    image.onerror = () => {
+      stop();
+      stickerNote.textContent = "動きを読み込めませんでした。静止画でご覧いただけます。";
+    };
+    image.src = button.dataset.animation;
+  });
+
+  return { button, stop };
+});
+
+function syncStickerMotion() {
+  stickerPlayers.forEach(({ button, stop }) => {
+    stop();
+    button.hidden = stickerMotion.matches;
+  });
+  stickerNote.textContent = stickerMotion.matches
+    ? "動きを抑える設定に合わせて、静止画で表示しています。"
+    : "「動きを見る」でアニメーションを再生できます。";
+}
+
+syncStickerMotion();
+stickerMotion.addEventListener("change", syncStickerMotion);
