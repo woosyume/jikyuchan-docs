@@ -105,6 +105,8 @@ h3 { font-weight: 700; }
 .hero-invitation { text-align: center; margin: 10px 16px 0; }
 .hero-invitation > p { font-size: 19px; margin-bottom: 22px; letter-spacing: .08em; }
 .cta-group { display: inline-flex; flex-direction: column; align-items: center; gap: 8px; }
+.cta-actions { display: flex; justify-content: center; align-items: start; gap: 20px; flex-wrap: wrap; }
+.cta-actions .store-button { min-height: 52px; }
 .platform-note { font-size: 11px; color: var(--muted); }
 .store-button { background: var(--action); min-height: 48px; border: 0; box-shadow: 0 4px 0 #a93a5014; padding-inline: 28px; }
 .header-store { min-height: 44px; }
@@ -223,6 +225,9 @@ h3 { font-weight: 700; }
   .hero-painting { width: calc(100% - 16px); mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent), linear-gradient(to bottom, transparent, #000 3%, #000 94%, transparent); }
   .hero-invitation { margin-top: 18px; }
   .hero-invitation > p { font-size: 17px; line-height: 1.9; }
+  .cta-actions { flex-direction: column; align-items: center; gap: 18px; }
+  .cta-actions > .cta-group { width: min(100%, 320px); }
+  .cta-actions .store-button { width: 100%; }
   .mobile-break { display: inline; }
   .store-button { font-size: 14px; padding-inline: 22px; }
   .deposit-section { padding-block: 65px 55px; }
