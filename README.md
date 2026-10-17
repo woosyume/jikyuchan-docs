@@ -47,3 +47,9 @@ python3 scripts/prepare-product-assets.py --illustration-dir '/path/to/homepages
 ## GitHub Pages
 
 `.github/workflows/pages.yml`, `CNAME`, `.nojekyll`과 기존 빌드 구성을 유지합니다. 배포 산출물은 `scripts/build-site.py`가 공개 파일만 복사하여 만듭니다. 문서, 출처와 검증 캡처는 게시되지 않습니다. 이번 수정에서는 commit·push·production deploy를 하지 않았습니다.
+
+## サポート (2026-10-17)
+
+`support/index.html` adds the Japanese support page at `/support/`, with visible `support@jikyuchan.com` contact details, email links, issue-report guidance and help topics. The homepage header, footer, FAQ afterword and privacy contact section link to it. Inquiry email data handling is now described in the privacy policy (updated 2026-10-17); this supersedes the earlier note that legal/footer wording was unchanged. The shared navigation works on both pages, with optional homepage-only enhancements guarded. The build includes both pages and their referenced assets, and the sitemap covers both canonical URLs. Integrity checks validate local links and fragments on both pages.
+
+The support artwork is newly generated from the two attached character references; see `assets/images/SOURCES.md`. After publishing, set the App Store Connect Support URL to `https://jikyuchan.com/support/`. Email delivery itself must be verified against the configured support mailbox; this site only opens the user's email app and displays the address. No production deployment or App Store Connect change is performed by the local build.

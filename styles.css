@@ -293,3 +293,75 @@ h3 { font-weight: 700; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Support continues the site's warm paper, storybook artwork and quiet spacing. */
+.support-email { display: block; width: fit-content; margin-top: 16px; color: var(--pink-text); text-decoration: underline; text-underline-offset: 4px; font-size: 16px; overflow-wrap: anywhere; }
+.support-invitation { width: min(1100px, calc(100% - 64px)); margin: 0 auto 65px; padding: 24px 40px; display: grid; grid-template-columns: 40% 1fr; gap: 32px; align-items: center; border-radius: 32px; background: #fff0e9; }
+.support-invitation img { width: 100%; border-radius: 24px; mix-blend-mode: multiply; }
+.support-invitation h2 { font-size: clamp(23px, 2.4vw, 30px); }
+.support-invitation .eyebrow { margin-bottom: 8px; }
+.support-invitation p:not(.eyebrow) { margin: 12px 0 22px; font-size: 14px; }
+.support-wrap { width: min(1040px, calc(100% - 64px)); margin-inline: auto; }
+.support-hero { width: min(1240px, calc(100% - 64px)); margin: auto; display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 20px; padding: 44px 0 80px; }
+.support-back { display: inline-block; color: var(--muted); font-size: 12px; margin-bottom: 40px; padding-block: 8px; }
+.support-hero h1 { font-size: clamp(32px, 3.5vw, 47px); line-height: 1.65; letter-spacing: .04em; }
+.support-hero-copy > p:not(.eyebrow):not(.support-mail-note) { margin: 22px 0 28px; line-height: 2; }
+.support-hero-art { width: 100%; mix-blend-mode: multiply; }
+.support-mail-note { font-size: 12px; color: var(--muted); margin-top: 14px; }
+.support-topics { background: #fff0e9; padding: 60px 0; border-radius: 50% 50% 0 0 / 28px 28px 0 0; }
+.support-topics h2, .support-faq h2 { font-size: 29px; }
+.support-topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; margin-top: 36px; }
+.support-topic-number { color: #a2475c; font-size: 13px; letter-spacing: .1em; }
+.support-topic-grid h3 { font-size: 19px; margin: 8px 0 12px; }
+.support-topic-grid p { font-size: 14px; }
+.support-details { padding-block: 80px; display: grid; grid-template-columns: 1fr 1.1fr; gap: 50px; align-items: start; }
+.support-details h2 { font-size: 30px; }
+.support-details > div > p:last-child { font-size: 14px; margin-top: 20px; }
+.support-report { background: #f0f3e6; border-radius: 24px; padding: 28px 30px; }
+.support-report ul { padding-left: 22px; margin: 0; }
+.support-report li { padding-block: 5px; font-size: 14px; }
+.support-report p { color: var(--muted); font-size: 12px !important; border-top: 1px solid #d9dfcc; padding-top: 18px; }
+.support-faq { border-top: 1px solid var(--line); padding-top: 50px; }
+.support-faq .faq-list { margin-block: 24px; }
+.support-faq .faq-list summary { font-size: 15px; padding-block: 20px; }
+.support-faq .faq-list details p { font-size: 14px; }
+.support-text-link, .support-faq .faq-list a { color: var(--pink-text); text-decoration: underline; text-underline-offset: 4px; font-size: 14px; }
+.support-closing { text-align: center; padding: 70px 0; }
+.support-closing .handwritten-note { font-size: 26px; margin-bottom: 24px; }
+.support-closing .support-email { margin-inline: auto; }
+.support-closing > p:last-child { font-size: 12px; margin-top: 28px; color: var(--muted); }
+.support-page [aria-current="page"] { color: var(--pink-text); }
+@media (max-width: 850px) and (min-width: 701px) {
+  .header-inner { gap: 16px; padding-inline: 20px; }
+  .header-inner nav { gap: 14px; }
+  .header-inner nav a { font-size: 11px; }
+  .header-store { padding-inline: 12px; font-size: 10px; }
+  .brand span { font-size: 18px; }
+}
+@media (max-width: 700px) {
+  .support-invitation { width: calc(100% - 40px); margin-bottom: 40px; padding: 24px; display: flex; flex-direction: column; gap: 10px; text-align: center; }
+  .support-invitation img { width: min(300px, 100%); }
+  .support-invitation .support-email { margin-inline: auto; font-size: 14px; }
+  .support-invitation .store-button { padding-inline: 20px; font-size: 14px; }
+  .support-wrap, .support-hero { width: calc(100% - 40px); }
+  .support-hero { display: flex; flex-direction: column; padding: 20px 0 40px; gap: 16px; }
+  .support-hero-copy { width: 100%; }
+  .support-back { margin-bottom: 24px; }
+  .support-hero h1 { font-size: 34px; }
+  .support-hero .eyebrow { margin-bottom: 10px; }
+  .support-hero-copy > p:not(.eyebrow):not(.support-mail-note) { font-size: 14px; }
+  .support-hero-art { width: min(440px, 100%); }
+  .support-mail-note { font-size: 11px; }
+  .desktop-break { display: none; }
+  .support-topics { padding-block: 42px; }
+  .support-topics h2, .support-faq h2 { font-size: 25px; }
+  .support-topic-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 24px; }
+  .support-topic-grid article + article { border-top: 1px solid var(--line); padding-top: 20px; }
+  .support-topic-grid p br { display: none; }
+  .support-topic-grid h3 { margin-block: 4px 8px; }
+  .support-details { display: block; padding-block: 48px; }
+  .support-details h2 { font-size: 27px; }
+  .support-report { margin-top: 24px; padding: 24px 20px; }
+  .support-closing { padding-block: 48px; }
+}
+.support-hero-art, .support-invitation > img { mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 8%, #000 90%, transparent); mask-composite: intersect; }

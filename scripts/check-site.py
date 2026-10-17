@@ -48,7 +48,7 @@ class Document(HTMLParser):
             if parsed.scheme != "https" or not parsed.netloc:
                 self.errors.append("Social image must use an absolute HTTPS URL")
             if "/assets/images/" in parsed.path:
-                self.references.append("assets/images/" + parsed.path.split("/assets/images/", 1)[1])
+                self.references.append("/assets/images/" + parsed.path.split("/assets/images/", 1)[1])
         if tag == "html":
             self.lang = attributes.get("lang")
         if tag == "h1":
@@ -136,6 +136,26 @@ try:
         page_url = home + (page_path[:-10] if page_path.endswith("index.html") else page_path)
         if parsed.canonicals != [page_url]:
             errors.append(f"{relative}: canonical must match its public URL")
+        if parsed.lang != "ja" or parsed.headings != 1:
+            errors.append(f"{relative}: expected Japanese language and exactly one h1")
+        for reference in parsed.references:
+            url = urlsplit(reference)
+            if url.scheme or url.netloc:
+                continue
+            target = (root if url.path.startswith("/") else page.parent) / unquote(url.path).lstrip("/")
+            if url.path:
+                if target.is_dir():
+                    target = target / "index.html"
+                if not target.is_file():
+                    errors.append(f"{relative}: missing local file: {reference}")
+                    continue
+            else:
+                target = page
+            if url.fragment:
+                linked = Document()
+                linked.feed(target.read_text(encoding="utf-8"))
+                if url.fragment not in linked.ids:
+                    errors.append(f"{relative}: missing anchor: {reference}")
         public_canonicals.append(page_url)
     if len(locations) != len(set(locations)) or set(locations) != set(public_canonicals):
         errors.append("Sitemap must contain exactly the public canonical HTML URLs, without duplicates")
@@ -157,7 +177,8 @@ for reference in document.references:
     url = urlsplit(reference)
     if url.scheme or url.netloc:
         continue
-    if url.path and not (root / unquote(url.path)).is_file():
+    target = root / unquote(url.path).lstrip("/")
+    if url.path and not (target.is_file() or (target / "index.html").is_file()):
         errors.append(f"Missing local file: {reference}")
     if url.fragment and not url.path and url.fragment not in document.ids:
         errors.append(f"Missing anchor: {reference}")

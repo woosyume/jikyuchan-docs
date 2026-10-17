@@ -57,7 +57,7 @@ const storeDialog = document.querySelector("#store-dialog");
 document.querySelectorAll("[data-store]").forEach(button => {
   button.addEventListener("click", () => storeDialog.showModal());
 });
-storeDialog.addEventListener("click", event => {
+storeDialog?.addEventListener("click", event => {
   if (event.target !== storeDialog) return;
   const bounds = storeDialog.getBoundingClientRect();
   if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) storeDialog.close();
@@ -106,6 +106,7 @@ function syncStickerMotion() {
     stop();
     button.hidden = stickerMotion.matches;
   });
+  if (!stickerNote) return;
   stickerNote.textContent = stickerMotion.matches
     ? "動きを抑える設定に合わせて、静止画で表示しています。"
     : "「動きを見る」でアニメーションを再生できます。";
