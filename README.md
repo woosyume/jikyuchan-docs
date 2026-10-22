@@ -46,6 +46,8 @@ python3 scripts/prepare-product-assets.py --illustration-dir '/path/to/homepages
 
 ## GitHub Pages
 
+`app-ads.txt` authorizes the Google AdMob publisher `pub-5717096365168169` and is included in the public build at `https://jikyuchan.com/app-ads.txt`. After publishing, confirm that this URL returns the plain-text record and request verification in AdMob. The App Store listing's Marketing URL must point to this developer website; app verification and the AdMob readiness review are separate steps.
+
 `.github/workflows/pages.yml`, `CNAME`, `.nojekyll`과 기존 빌드 구성을 유지합니다. 배포 산출물은 `scripts/build-site.py`가 공개 파일만 복사하여 만듭니다. 문서, 출처와 검증 캡처는 게시되지 않습니다. 이번 수정에서는 commit·push·production deploy를 하지 않았습니다.
 
 ## サポート (2026-10-17)
