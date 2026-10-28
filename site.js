@@ -53,16 +53,6 @@ document.addEventListener("keydown", event => {
   }
 });
 
-const storeDialog = document.querySelector("#store-dialog");
-document.querySelectorAll("[data-store]").forEach(button => {
-  button.addEventListener("click", () => storeDialog.showModal());
-});
-storeDialog?.addEventListener("click", event => {
-  if (event.target !== storeDialog) return;
-  const bounds = storeDialog.getBoundingClientRect();
-  if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) storeDialog.close();
-});
-
 // Fetch animation only on request; the four lazy stills also work without JS.
 const stickerMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const stickerNote = document.querySelector("#sticker-preview-note");

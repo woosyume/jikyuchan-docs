@@ -6,7 +6,9 @@
 
 ## Social sharing image
 
-`og-jikyuchan-20261026.png` is derived from the original below. Only the pink release badge lettering was changed to `2026年10月26日 / 公開予定` by local font rendering with `scripts/render-share-release.py` (LogoTypeGothic). Characters, room, composition, and all pixels outside the badge text region are unchanged. No AI image generation. This dated file is the active OG / X image.
+`og-jikyuchan-released.png` is the active OG / X image (1536×1024). Edited with the built-in imagegen tool from `og-jikyuchan-20261026.png` to replace the dated prerelease badge with `好評配信中`. The original source files remain intact.
+
+`og-jikyuchan-20261026.png` is derived from the original below. Only the pink release badge lettering was changed to `2026年10月26日 / 公開予定` by local font rendering with `scripts/render-share-release.py` (LogoTypeGothic). Characters, room, composition, and all pixels outside the badge text region are unchanged. No AI image generation. This dated file is retained as a historical source; it is no longer the active OG / X image.
 
 `og-jikyuchan.png`: user-supplied `ChatGPT Image Oct 4, 2026, 11_49_30 AM.png` from `/Users/woosyume/Desktop/jikyuchan-images/`. Original1536×1024 composition and decoded pixels retained; PNG compressed losslessly without cropping, redrawing, or upscaling. Used only by Open Graph / X metadata, not as page artwork.
 
